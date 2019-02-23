@@ -44,7 +44,7 @@ function App({ locale }) {
                 target="_blank"
                 className="btn btn-sm btn-nano-primary mb-1"
               >
-                ⏰ Speed Test Nano
+                ⏰ Speed Test Xpeed
               </a>
               <br />
               <a href="https://twitter.com/meltingice" target="_blank">
