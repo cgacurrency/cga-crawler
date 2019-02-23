@@ -10,7 +10,7 @@
     "maxSupply": 133248289,
     "prefixes": ["xpd", "xpeed"],
     "qrPrefix": "xpd",
-    "supportsMyNanoNinja": true
+    "supportsMyNanoNinja": false
   },
   "features": {
     "nodeStatus": true,

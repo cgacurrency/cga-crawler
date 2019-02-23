@@ -2,7 +2,7 @@
   "nodeName": "xpdnode.com",
   "account": "xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn",
   "clientUrl": "https://xpdnode.com",
-  "raiblocksDir": "/home/ryanlefevre/RaiBlocks",
+  "raiblocksDir": "/root/Xpeed",
   "nodeHost": "http://127.0.0.1:7076",
   "redis": "redis://127.0.0.1:6379",
   "redisNamespace": "xpd_development",
