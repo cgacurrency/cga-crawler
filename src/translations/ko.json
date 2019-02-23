@@ -1,18 +1,18 @@
 {
     "nav.explorer": "Explorer",
-    "nav.network": "Network Status",
-    "nav.status": "Node Status",
+    "nav.network": "네트워크 상태",
+    "nav.status": "노드 상태",
     "explorer.title": "Network Explorer",
     "explorer.form.help":
         "Enter a {currency} address or block hash to get started.",
-    "explorer.known_accounts": "Known Accounts",
+    "explorer.known_accounts": "알려진 계정",
     "explorer.known_accounts.desc":
         "Some places to start your safari through the jungle",
     "explorer.top_accounts": "Top {count} Accounts",
     "explorer.top_accounts_desc":
         "Accounts with the highest balance, including pending transactions",
     "explorer.top_accounts_link": "Accounts and Distribution",
-    "network.title": "Network Status",
+    "network.title": "네트워크 상태",
     "network.reps_online": "{count} representatives online",
     "network.reps_online_desc":
         "Accounts that have at least 1 delegator, regardless of voting weight",
@@ -74,9 +74,9 @@
     "status.voting_weight": "Voting Weight",
     "status.peers": "Peers",
     "status.uptime": "Uptime",
-    "status.cpu_usage": "CPU Usage",
-    "status.memory": "Memory (used / total)",
-    "status.database": "Database Size",
+    "status.cpu_usage": "CPU 사용량",
+    "status.memory": "메모리 (사용됨 / 전체)",
+    "status.database": "데이터베이스 크기",
     "account.title.rebroadcasting": "Rebroadcasting Account",
     "account.title.representative": "Representative Account",
     "account.title.unopened": "Unopened Account",
@@ -111,8 +111,8 @@
     "account.pending.count": "pending transactions",
     "account.transactions.title": "Transactions",
     "account.transactions.total": "transactions total",
-    "account.transactions.load_more": "Load More Transactions",
-    "account.unopened.title": "This account hasn't been opened yet",
+    "account.transactions.load_more": "거래내역 더 보기",
+    "account.unopened.title": "이 계정은 아직 오픈되지 않은 상태입니다",
     "account.unopened.desc":
         "While the account address is valid, no blocks have been published to its chain yet. If {currencyShortName} has been sent to this account, it still needs to publish a corresponding block to pocket the funds.",
     "block.state": "State",
@@ -198,17 +198,17 @@
     "error.not_found": "This page doesn't seem to exist",
     "error.server_error":
         "The server either encountered an error or is unable to fulfill your request",
-    "search": "Search",
+    "search": "검색",
     "pending": "pending",
     "weight": "weight",
-    "account": "account",
+    "account": "계정",
     "type": "type",
     "amount": "amount",
-    "date": "date",
+    "date": "날짜",
     "block": "block",
     "representative": "representative",
     "source": "source",
     "balance": "balance",
-    "name": "name",
-    "version": "version"
+    "name": "이름",
+    "version": "버전"
 }

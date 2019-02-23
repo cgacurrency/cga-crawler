@@ -1,37 +1,23 @@
 {
   "server": "http://localhost:3001",
-  "websocketServer": "ws.nanocrawler.cc",
+  "websocketServer": "ws.xpdnode.com",
   "donationAddress":
-    "xrb_3xemzomy4atzmq5u55mzzixqw9zxykyeyeiqia7rb1xy1saufpr8wzder1xh",
+    "xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn",
   "currency": {
-    "name": "Nano",
-    "shortName": "NANO",
+    "name": "Xpeed",
+    "shortName": "XPD",
     "precision": 30,
     "maxSupply": 133248289,
-    "prefixes": ["xrb", "nano"],
-    "qrPrefix": "xrb",
+    "prefixes": ["xpd", "xpeed"],
+    "qrPrefix": "xpd",
     "supportsMyNanoNinja": true
   },
   "features": {
     "nodeStatus": true,
     "supportedLanguages": {
       "en": "English",
-      "cs": "Čeština",
-      "da": "Dansk",
-      "de": "Deutsch",
-      "es": "Español",
-      "fr": "Français",
-      "hr": "Hrvatski",
-      "hu": "Magyar",
-      "id": "Bahasa Indonesia",
-      "nl": "Nederlands",
-      "pt-BR": "Português Brasileiro",
-      "el": "Ελληνικά",
-      "ro": "Română",
-      "ru": "Русский",
-      "sv": "Svenska",
-      "zh-CN": "汉语",
-      "zh-TW": "漢語"
+      "ko": "한국어",
+      "zh-CN": "汉语"
     }
   },
   "serviceMonitors": []
