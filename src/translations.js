@@ -8,11 +8,6 @@ const translationMapping = {
     messages: "en",
     intlLocale: "en",
     momentLocale: "en-gb"
-  },
-  "ko-KR": {
-    messages: "ko",
-    intlLocale: "ko",
-    momentLocale: "ko-kr"
   }
 };
 
