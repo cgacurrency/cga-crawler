@@ -3,6 +3,11 @@
   --xpd-purple: #770975;
 }
 
+h1 {
+  font-weight: bolder;
+  color: #5b33af;
+}
+
 .text-monospace {
   font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace !important;
