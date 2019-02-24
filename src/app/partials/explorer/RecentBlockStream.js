@@ -67,6 +67,7 @@ export default class RecentBlockStream extends React.Component {
         <div className="row align-items-center">
           <div className="col-sm">
             <h3 className="mb-0">
+              <i class="la la-signal" aria-hidden="true"></i>
               <TranslatedMessage id="stream.title" />
             </h3>
             <p className="text-muted mb-0">

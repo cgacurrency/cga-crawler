@@ -28,26 +28,11 @@ export default class DonationAlert extends React.Component {
       >
         <div className="col">
           <div
-            className="alert alert-secondary alert-dismissible fade show"
+            className="alert alert-secondary alert-dismissible fade show d-md-block"
             role="alert"
           >
-            NanoCrawler is a free-to-use service that has a strict no-ads
-            policy, but incurs monthly server costs. If you find it
-            useful, please{" "}
-            <AccountLink
-              account={config.donationAddress}
-              name="consider donating"
-              className="alert-link"
-            />.
-            <button
-              type="button"
-              className="close"
-              data-dismiss="alert"
-              aria-label="Close"
-              onClick={this.onDismiss.bind(this)}
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
+            Welcome to official block explorer! XPEED EXPLORER  is a free-to-use service that has a strict no-ads
+            policy.
           </div>
         </div>
       </div>
