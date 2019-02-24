@@ -46,7 +46,7 @@
 }
 
 #App .Header {
-  background-color: var(--nano-blue);
+  background-color: linear-gradient(135deg, #5b35ac 0%,#872086 68%,#872086 68%);
   color: #fff;
 }
 
