@@ -2,7 +2,7 @@
     "nav.explorer": "Explorer",
     "nav.network": "네트워크 상태",
     "nav.status": "노드 상태",
-    "explorer.title": "Network Explorer",
+    "explorer.title": "XPEED EXPLOER",
     "explorer.form.help":
         "{currency}계정주소 혹은 블록해시값을 입력하세요.",
     "explorer.known_accounts": "알려진 계정",
