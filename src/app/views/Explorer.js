@@ -39,7 +39,6 @@ class Explorer extends React.PureComponent {
 
         <div className="col col-md-8">
           <h1>
-            <i class="fa fa-search" />
             <TranslatedMessage id="explorer.title" />
           </h1>
 
