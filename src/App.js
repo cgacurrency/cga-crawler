@@ -31,35 +31,17 @@ function App({ locale }) {
         <div className="row mr-0 align-items-center">
           <div className="col-md">
             <div className="py-2 px-4">
-              <p className="mb-0">Created by Ryan LeFevre (@meltingice)</p>
-              <p>
-                Donations: <AccountLink account={config.donationAddress} />
-              </p>
+              <p className="mb-0">Powered by XPEEDCOIN</p>
             </div>
           </div>
           <div className="col-auto text-md-right">
             <div className="py-2 px-4">
               <a
-                href="https://www.nanospeed.live/"
+                href="https://xpeedcoin.com"
                 target="_blank"
                 className="btn btn-sm btn-nano-primary mb-1"
               >
-                ⏰ Speed Test Xpeed
-              </a>
-              <br />
-              <a href="https://twitter.com/meltingice" target="_blank">
-                Twitter
-              </a>{" "}
-              &bull;{" "}
-              <a href="https://reddit.com/u/meltingice" target="_blank">
-                Reddit
-              </a>{" "}
-              &bull;{" "}
-              <a
-                href="https://github.com/meltingice/nano-node-dashboard"
-                target="_blank"
-              >
-                Source code
+                XPEEDCOIN.COM
               </a>
             </div>
           </div>
