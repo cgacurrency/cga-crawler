@@ -16,7 +16,7 @@
     "nodeStatus": true,
     "supportedLanguages": {
       "en": "English",
-      "ko-KR": "한국어"
+      "ko-kr": "한국어"
     }
   },
   "serviceMonitors": []
