@@ -61,7 +61,7 @@ export default class NetworkConfirmationQuorum extends React.Component {
                 this.stakeBelowMinumum() ? "text-danger" : ""
               }`}
             >
-              <FormattedNumber value={peers_stake_total_mnano || 0} /> NANO{" "}
+              <FormattedNumber value={peers_stake_total_mnano || 0} /> XPD{" "}
               <span
                 className={
                   this.stakeBelowMinumum() ? "text-danger" : "text-muted"
