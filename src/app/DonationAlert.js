@@ -28,7 +28,7 @@ export default class DonationAlert extends React.Component {
       >
         <div className="col">
           <div
-            className="alert alert-secondary alert-dismissible fade show d-md-block"
+            className="alert alert-secondary alert-dismissible fade show d-none d-md-block"
             role="alert"
           >
             Welcome to official block explorer! XPEED EXPLORER  is a free-to-use service that has a strict no-ads
