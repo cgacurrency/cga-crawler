@@ -46,7 +46,8 @@
 }
 
 #App .Header {
-  background-color: linear-gradient(135deg, #5b35ac 0%,#872086 68%,#872086 68%);
+  background: #5b35ac;
+  background: linear-gradient(135deg, #5b35ac 17%,#872086 68%,#872086 72%);
   color: #fff;
 }
 

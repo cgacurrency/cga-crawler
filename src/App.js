@@ -1,7 +1,7 @@
 import React from "react";
 import { IntlProvider } from "react-intl";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./App.css";
 import "primer-tooltips/build/build.css";
 
 import config from "client-config.json";
