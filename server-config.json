@@ -7,6 +7,7 @@
   "redis": "redis://127.0.0.1:6379",
   "redisNamespace": "xpd_development",
   "serverPort": 3001,
+  "openExchangeRatesAppId": "",
   "coinMarketCapApiKey": "",
   "monitorCurrencyName": "xpeed",
   "knownMonitors": [],

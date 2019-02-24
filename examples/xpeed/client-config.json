@@ -1,5 +1,5 @@
 {
-  "server": "http://localhost:3001",
+  "server": "https://api.xpdnode.com",
   "websocketServer": "ws.xpdnode.com",
   "donationAddress":
     "xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn",
@@ -16,7 +16,7 @@
     "nodeStatus": true,
     "supportedLanguages": {
       "en": "English",
-      "ko": "한국어",
+      "ko-KR": "한국어",
       "zh-CN": "汉语"
     }
   },
