@@ -7,7 +7,7 @@
     "name": "Xpeed",
     "shortName": "XPD",
     "precision": 30,
-    "maxSupply": 133248289,
+    "maxSupply": 3402823669.2,
     "prefixes": ["xpd", "xpeed"],
     "qrPrefix": "xpd",
     "supportsMyNanoNinja": false
