@@ -17,10 +17,9 @@ const Navigation = () => {
 
   return (
     <div id="Navigation" className="row align-items-center pl-3">
-      <div className="col-auto mt-3 mb-0 mb-md-3 px-0 px-md-2">
+      <div className="col-auto mt-3 mb-3 px-0 px-md-2">
         <div className="LogoWrap">
-          <ReactSVG path={VertLogo} className="VertLogo d-none d-md-block" />
-          <ReactSVG path={HorizLogo} className="HorizLogo d-block d-md-none" />
+          <ReactSVG path={VertLogo} className="VertLogo d-block" />
         </div>
       </div>
 

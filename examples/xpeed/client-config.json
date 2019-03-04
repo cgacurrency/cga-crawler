@@ -1,0 +1,23 @@
+{
+  "server": "https://api.xpdnode.com",
+  "websocketServer": "ws.xpdnode.com",
+  "donationAddress":
+    "xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn",
+  "currency": {
+    "name": "Xpeed",
+    "shortName": "XPD",
+    "precision": 30,
+    "maxSupply": 3402823669.2,
+    "prefixes": ["xpd", "xpeed"],
+    "qrPrefix": "xpd",
+    "supportsMyNanoNinja": false
+  },
+  "features": {
+    "nodeStatus": true,
+    "supportedLanguages": {
+      "en": "English",
+      "ko": "한국어"
+    }
+  },
+  "serviceMonitors": []
+}

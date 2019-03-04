@@ -21,7 +21,7 @@ class TranslationProvider extends React.Component {
 
   componentDidMount() {
     const language =
-      Cookies.get("nanocrawler.locale") ||
+      Cookies.get("xpdnode.locale") ||
       (navigator.languages && navigator.languages[0]) ||
       navigator.language ||
       navigator.userLanguage;
@@ -52,7 +52,7 @@ class TranslationProvider extends React.Component {
     moment.locale(langConfig.momentLocale);
 
     this.setState({ language, messages }, () => {
-      Cookies.set("nanocrawler.locale", language);
+      Cookies.set("xpdnode.locale", language);
     });
   }
 

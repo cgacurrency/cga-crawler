@@ -1,5 +1,11 @@
 :root {
-  --nano-blue: #2c3e50;
+  --nano-blue: #770975;
+  --xpd-purple: #770975;
+}
+
+h1 {
+  font-weight: bolder;
+  color: #5b33af;
 }
 
 .text-monospace {
@@ -46,7 +52,8 @@
 }
 
 #App .Header {
-  background-color: var(--nano-blue);
+  background: #5b35ac;
+  background: linear-gradient(135deg, #5b35ac 17%,#872086 68%,#872086 72%);
   color: #fff;
 }
 
