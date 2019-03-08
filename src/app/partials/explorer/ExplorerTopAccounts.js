@@ -29,7 +29,7 @@ const Account = ({ account, balance, rank }) => {
               >
                 {(base, btc, usd) => (
                   <h6 className="mb-0">
-                    {base} / {btc} / {usd}
+                    {base}{/*/ {btc} / {usd}*/}
                   </h6>
                 )}
               </PriceWithConversions>
