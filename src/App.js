@@ -41,7 +41,7 @@ function App({ locale }) {
                 target="_blank"
                 className="btn btn-sm btn-nano-primary mb-1"
               >
-                XPEEDCOIN.COMS
+                XPEEDCOIN.COM
               </a>
             </div>
           </div>
