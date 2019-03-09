@@ -46,13 +46,7 @@ export default class NodeNinjaAccount extends React.Component {
               id="ninja.verified_by"
               values={{
                 link: (
-                  <a
-                    href={`https://mynano.ninja/account/${account}`}
-                    className="text-muted"
-                    target="_blank"
-                  >
-                    My Nano Ninja
-                  </a>
+                    XPEED EXPLORER
                 )
               }}
             />

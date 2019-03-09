@@ -27,13 +27,7 @@ export default class RandomVerifiedAccounts extends React.Component {
             id="ninja.verified_accounts.desc"
             values={{
               link: (
-                <a
-                  href="https://mynano.ninja"
-                  target="_blank"
-                  className="text-muted"
-                >
-                  My Nano Ninja
-                </a>
+                  XPEED EXPLORER
               )
             }}
           />
