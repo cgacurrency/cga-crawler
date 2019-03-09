@@ -29,11 +29,11 @@ export default class AggregateNetworkData extends React.Component {
     if (this.timeout) clearTimeout(this.timeout);
   }
 
-  async updateStats() {
-    const peers = await apiClient.networkData();
-    this.setState({ peers });
-    this.timeout = setTimeout(this.updateStats.bind(this), 10000);
-  }
+  // async updateStats() {
+  //   const peers = await apiClient.networkData();
+  //   this.setState({ peers });
+  //   this.timeout = setTimeout(this.updateStats.bind(this), 10000);
+  // }
 
   blockStats() {
     const currentBlocks = compact(
