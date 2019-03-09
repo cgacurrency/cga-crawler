@@ -45,9 +45,7 @@ export default class NodeNinjaAccount extends React.Component {
             <TranslatedMessage
               id="ninja.verified_by"
               values={{
-                link: (
-                    XPEED EXPLORER
-                )
+                link: "XPEED EXPLORER"
               }}
             />
           </p>
