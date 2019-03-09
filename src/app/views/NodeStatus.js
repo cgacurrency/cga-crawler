@@ -177,9 +177,7 @@ export default class NodeStatus extends React.PureComponent {
     const { memory, raiStats } = systemInfo;
 
     const formatMemory = amt => {
-      console.log('====memory_1'+amt);
       amt = amt / 1024 / 1024;
-      console.log('====memory_2'+amt);
       if (amt > 1024) {
         return `${Math.round((amt / 1024.0) * 100.0) / 100.0}GB`;
       }
