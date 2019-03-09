@@ -1,0 +1,425 @@
+[
+    {
+        "account": "xrb_1fnx59bqpx11s1yn7i5hba3ot5no4ypy971zbkp5wtium3yyafpwhhwkq8fc",
+        "alias": "NiF's Node - nano.nifni.net",
+        "score": 99,
+        "uptime": 99.71942724458205,
+        "delegators": 420,
+        "votingweight": 4.121313426153505e+35
+    },
+    {
+        "account": "xrb_1i9ugg14c5sph67z4st9xk8xatz59xntofqpbagaihctg6ngog1f45mwoa54",
+        "alias": "Nanode21",
+        "score": 99,
+        "uptime": 99.8404332479087,
+        "delegators": 421,
+        "votingweight": 2.346821691789676e+35
+    },
+    {
+        "account": "xrb_3om9m65hb6c3xaqkhqpok48wq4dgxidnxt8fihknbsb8pf997iu6dx6x6mfu",
+        "alias": "Snow & Hot Cocoa",
+        "score": 99,
+        "uptime": 99.66465459423206,
+        "delegators": 310,
+        "votingweight": 1.921409427153508e+35
+    },
+    {
+        "account": "xrb_396sch48s3jmzq1bk31pxxpz64rn7joj38emj4ueypkb9p9mzrym34obze6c",
+        "alias": "Polish Nano Node",
+        "score": 98,
+        "uptime": 99.51625386996903,
+        "delegators": 329,
+        "votingweight": 1.8266967698437267e+35
+    },
+    {
+        "account": "xrb_1just1zdsnke856mu5pmed1qdkzk6adh3d13iiqr3so66sr8pbcnh15bdjda",
+        "alias": "Nonna",
+        "score": 98,
+        "uptime": 99.48779752937632,
+        "delegators": 337,
+        "votingweight": 1.9753356867819975e+35
+    },
+    {
+        "account": "xrb_14hww1gr4d56ba5m9o4wukq648hhonu5camofscyr4p3icajy9b7od1u8dfy",
+        "alias": "node.numberwitch.net",
+        "score": 97,
+        "uptime": 99.27932285368803,
+        "delegators": 428,
+        "votingweight": 1.9152857503282986e+35
+    },
+    {
+        "account": "xrb_1f56swb9qtpy3yoxiscq9799nerek153w43yjc9atoaeg3e91cc9zfr89ehj",
+        "alias": "dbachm123-nano",
+        "score": 97,
+        "uptime": 99.322951929587,
+        "delegators": 137,
+        "votingweight": 2.876988230528592e+35
+    },
+    {
+        "account": "xrb_33ad5app7jeo6jfe9ure6zsj8yg7knt6c1zrr5yg79ktfzk5ouhmpn6p5d7p",
+        "alias": "warai",
+        "score": 97,
+        "uptime": 99.33762026785283,
+        "delegators": 431,
+        "votingweight": 1.824421821770536e+35
+    },
+    {
+        "account": "xrb_3caprkc56ebsaakn4j4n7g9p8h358mycfjcyzkrfw1nai6prbyk8ihc5yjjk",
+        "alias": "Marvel's Node - Europe",
+        "score": 97,
+        "uptime": 99.40510737086477,
+        "delegators": 371,
+        "votingweight": 5.633154320002776e+35
+    },
+    {
+        "account": "xrb_3uaydiszyup5zwdt93dahp7mri1cwa5ncg9t4657yyn3o4i1pe8sfjbimbas",
+        "alias": "NANO Voting (100% Green)",
+        "score": 97,
+        "uptime": 99.57217944016624,
+        "delegators": 0,
+        "votingweight": 2.816905310745509e+35
+    },
+    {
+        "account": "xrb_3hrppx3sfxoiycjm9iaqsr3odecgarcxxxhsm41s9pbs75ykambxqhu9ys58",
+        "alias": "nanoisfast.com",
+        "score": 96,
+        "uptime": 98.9118235495047,
+        "delegators": 440,
+        "votingweight": 4.364689486858884e+35
+    },
+    {
+        "account": "xrb_3u7d5iohy14swyhxhgfm9iq4xa9yibhcgnyj697uwhicp14dhx4woik5e9ek",
+        "alias": "NANO Skynode",
+        "score": 96,
+        "uptime": 98.96599721614635,
+        "delegators": 110,
+        "votingweight": 1.4116935003517906e+35
+    },
+    {
+        "account": "xrb_3akecx3appfbtf6xrzb3qu9c1himzze46uajft1k5x3gkr9iu3mw95noss6i",
+        "alias": "🌱 Deutscher Nano Knoten",
+        "score": 96,
+        "uptime": 99.09284951974387,
+        "delegators": 303,
+        "votingweight": 1.850941850883669e+35
+    },
+    {
+        "account": "xrb_1asau6gr8ft5ykynpkauctrq1w37sdasdymuigtxotim6kxoa3rgn3dpenis",
+        "alias": "3D Penis Nano Node",
+        "score": 96,
+        "uptime": 99.0613886783653,
+        "delegators": 391,
+        "votingweight": 1.8139105820646458e+35
+    },
+    {
+        "account": "xrb_3afmp9hx6pp6fdcjq96f9qnoeh1kiqpqyzp7c18byaipf48t3cpzmfnhc1b7",
+        "alias": " ⋰·⋰ FastFeeless.com ⋰·⋰",
+        "score": 96,
+        "uptime": 99.19364263176347,
+        "delegators": 0,
+        "votingweight": 4.182560820733012e+34
+    },
+    {
+        "account": "xrb_1natrium1o3z5519ifou7xii8crpxpk8y65qmkih8e8bpsjri651oza8imdd",
+        "alias": "Natrium Wallet",
+        "score": 96,
+        "uptime": 99.46659554607281,
+        "delegators": 0,
+        "votingweight": 3.054905960506111e+35
+    },
+    {
+        "account": "xrb_3chartsi6ja8ay1qq9xg3xegqnbg1qx76nouw6jedyb8wx3r4wu94rxap7hg",
+        "alias": "NanoCharts.info",
+        "score": 96,
+        "uptime": 99.52347582340575,
+        "delegators": 0,
+        "votingweight": 1.5028292613497951e+35
+    },
+    {
+        "account": "xrb_1qgkdadcbwn65sp95gr144fuc99tm5tn6gx9y8ow9bgaam6r5ixgtx19tw93",
+        "alias": "oFLIPSTARo's Node",
+        "score": 95,
+        "uptime": 98.80013546857613,
+        "delegators": 431,
+        "votingweight": 1.6742673909458803e+35
+    },
+    {
+        "account": "xrb_3r5ooenxm6r46tcbfpi4rdw69euu9u1tqizjpkoo3a4bckh8asyr99kjugki",
+        "alias": "Fernseher's Node",
+        "score": 95,
+        "uptime": 98.71323529411765,
+        "delegators": 15,
+        "votingweight": 1.3744210065790941e+35
+    },
+    {
+        "account": "xrb_16d45ow3tsj1y3z9n4satwzxgj6qiue1ggxbwbrj3b33qr58bzchkpsffpx4",
+        "alias": "1NANO Community",
+        "score": 94,
+        "uptime": 98.61158144260075,
+        "delegators": 424,
+        "votingweight": 1.7074230417809465e+35
+    },
+    {
+        "account": "xrb_1iuz18n4g4wfp9gf7p1s8qkygxw7wx9qfjq6a9aq68uyrdnningdcjontgar",
+        "alias": "NanoLinks.info",
+        "score": 94,
+        "uptime": 98.58262383900929,
+        "delegators": 321,
+        "votingweight": 1.9993100667507212e+35
+    },
+    {
+        "account": "xrb_3kxxs46k7x581icfxfaxmdsg1gmzonj6m3bjxyqek4jy4mu65r6oifisuf6k",
+        "alias": "Nano-Rep.xyz",
+        "score": 94,
+        "uptime": 98.40425531914893,
+        "delegators": 133,
+        "votingweight": 3.3584149022634228e+34
+    },
+    {
+        "account": "xrb_3o7uzba8b9e1wqu5ziwpruteyrs3scyqr761x7ke6w1xctohxfh5du75qgaj",
+        "alias": "NANO TipBot",
+        "score": 94,
+        "uptime": 98.40422828683234,
+        "delegators": 2796,
+        "votingweight": 1.3918251744602747e+35
+    },
+    {
+        "account": "xrb_3kqdiqmqiojr1aqqj51aq8bzz5jtwnkmhb38qwf3ppngo8uhhzkdkn7up7rp",
+        "alias": "ARaiNode",
+        "score": 94,
+        "uptime": 98.62929048929836,
+        "delegators": 355,
+        "votingweight": 1.507835287538896e+35
+    },
+    {
+        "account": "xrb_3tta9pdxr4djdcm6r3c7969syoirj3dunrtynmmi8n1qtxzk9iksoz1gxdrh",
+        "alias": "Bryan's 24/7 Green Node",
+        "score": 94,
+        "uptime": 98.74956176229988,
+        "delegators": 4,
+        "votingweight": 1.8983790316356442e+35
+    },
+    {
+        "account": "xrb_1rbe96g1t3aj4shgcekpw1fqcmrufcjbbydd3tawi4rztmgehmk6ddqxfbpn",
+        "alias": "rdestenay's node",
+        "score": 94,
+        "uptime": 98.78408253500368,
+        "delegators": 0,
+        "votingweight": 1.502696424495935e+33
+    },
+    {
+        "account": "xrb_18bpu81x4oyqsjjsyaeb7ek4rag1bw8gerhaiumookzc4t5prrm4d7zg56ww",
+        "alias": "Nano Node London",
+        "score": 93,
+        "uptime": 98.28344857598762,
+        "delegators": 124,
+        "votingweight": 1.4001103019062181e+35
+    },
+    {
+        "account": "xrb_17wmwpg65neuh8u84f99e6nxcf48znusb437efwaafta7rtpy4n9h6io79xj",
+        "alias": "Twitter Nano Tip Bot",
+        "score": 93,
+        "uptime": 98.1363235217775,
+        "delegators": 512,
+        "votingweight": 1.3898541495015511e+35
+    },
+    {
+        "account": "xrb_1thingspmippfngcrtk1ofd3uwftffnu4qu9xkauo9zkiuep6iknzci3jxa6",
+        "alias": "NanoThings",
+        "score": 93,
+        "uptime": 98.37756332931242,
+        "delegators": 136,
+        "votingweight": 1.4182241755342158e+35
+    },
+    {
+        "account": "xrb_3hjo1cehsxrssawmpew98u4ug8bxy4ppht5ch647zpuscdgedfy1xh4yga7z",
+        "alias": "Finland | 24/7 | 100% Green 💚",
+        "score": 93,
+        "uptime": 99.28486293206198,
+        "delegators": 0,
+        "votingweight": 1.394205167988793e+35
+    },
+    {
+        "account": "xrb_3nnogsx1u7ye6snntq9fi1aakb489dsk94zyex8fdd5ioubmhep3o9sr7zsk",
+        "alias": "Libertarian Node",
+        "score": 92,
+        "uptime": 97.90264853256978,
+        "delegators": 2,
+        "votingweight": 4.150997631008803e+34
+    },
+    {
+        "account": "xrb_3moomoo77b45d1jug8szecomeqnmwgjbue1xaxz95s5338jsp77eho166jd1",
+        "alias": "MooMoo Node",
+        "score": 92,
+        "uptime": 99.36571221457051,
+        "delegators": 0,
+        "votingweight": 2.939475414776769e+34
+    },
+    {
+        "account": "xrb_1s4nxkp4c9y5m4te64xzynuadomg4t9cra9a4mdhpkipz6q113whtt7sx519",
+        "alias": "nanofam.co.uk",
+        "score": 91,
+        "uptime": 97.77011270890011,
+        "delegators": 116,
+        "votingweight": 4.574667514958984e+34
+    },
+    {
+        "account": "xrb_15nt4cis8ac184q9mj7bedww9ay9zh5jk5k7sj9ypmz44twjcpz3cn6oijir",
+        "alias": "Kedrin Node",
+        "score": 91,
+        "uptime": 97.7124343429385,
+        "delegators": 13,
+        "votingweight": 3.768161015878481e+33
+    },
+    {
+        "account": "xrb_1x7biz69cem95oo7gxkrw6kzhfywq4x5dupw4z1bdzkb74dk9kpxwzjbdhhs",
+        "alias": "meltingice",
+        "score": 90,
+        "uptime": 98.82495164410058,
+        "delegators": 476,
+        "votingweight": 8.086620473521939e+35
+    },
+    {
+        "account": "xrb_17phyr5e81b1cfaduzeqpz9swbtzkm1ghwb6bw9gpts7e4d3ciue8gt6yzkd",
+        "alias": "SrVicenteHD",
+        "score": 90,
+        "uptime": 97.45954083552878,
+        "delegators": 4,
+        "votingweight": 1.1938502006464242e+33
+    },
+    {
+        "account": "xrb_1isgusmnf1xe45iyjtfxw4qiai36zxdituu7gpni1trtj5ojyujobq13bjah",
+        "alias": "Noli Me Tangere",
+        "score": 89,
+        "uptime": 97.13194041400658,
+        "delegators": 311,
+        "votingweight": 2.2525055508650807e+35
+    },
+    {
+        "account": "xrb_1u1sg4d4wxu637coqau58q9t7c13bbaiqjx696tzpi5caj416uo45xpiwg69",
+        "alias": "n4l8tr",
+        "score": 89,
+        "uptime": 97.10390175506454,
+        "delegators": 6,
+        "votingweight": 8.528762223255735e+33
+    },
+    {
+        "account": "xrb_36y9jqqw7jwt4igaef9g8oge3gxa4t7miufz5iaefxy11rd7y3wiz5xfwxnz",
+        "alias": "Nanode Brasil",
+        "score": 89,
+        "uptime": 97.43520518358531,
+        "delegators": 0,
+        "votingweight": 1.8453475120709107e+35
+    },
+    {
+        "account": "xrb_1aqkrayihxzdahoxpjrg8o6mxgxfzq46hhcdm1u48w3qexsakx7pzzhjn3fc",
+        "alias": "DERP",
+        "score": 88,
+        "uptime": 96.94066229618423,
+        "delegators": 121,
+        "votingweight": 1.0069041999171767e+34
+    },
+    {
+        "account": "xrb_16d3mdshcfqayyx8rd9ioimjiicrma743qpd86ohfs9kdzgejmnba1zifo8m",
+        "alias": "Nanoble Node",
+        "score": 88,
+        "uptime": 96.95574454254916,
+        "delegators": 109,
+        "votingweight": 4.957583974000663e+34
+    },
+    {
+        "account": "xrb_1ninja7rh37ehfp9utkor5ixmxyg8kme8fnzc4zty145ibch8kf5jwpnzr3r",
+        "alias": "My Nano Ninja",
+        "score": 87,
+        "uptime": 96.49105801386129,
+        "delegators": 456,
+        "votingweight": 2.3816119728433726e+35
+    },
+    {
+        "account": "xrb_3rpixaxmgdws7nk7sx6owp8d8becj9ei5nef6qiwokgycsy9ufytjwgj6eg9",
+        "alias": "repnode.org - sev's node",
+        "score": 87,
+        "uptime": 99.85976111030514,
+        "delegators": 408,
+        "votingweight": 8.676933561397903e+35
+    },
+    {
+        "account": "xrb_3msc38fyn67pgio16dj586pdrceahtn75qgnx7fy19wscixrc8dbb3abhbw6",
+        "score": 86,
+        "uptime": 96.3468331155949,
+        "delegators": 137,
+        "votingweight": 3.327815930158522e+35
+    },
+    {
+        "account": "xrb_3ns5ipq6dop39dqdk85hs4da3k58hzmn88zytxkc4fmymr1ekbywy7xiizka",
+        "alias": "KrakenOverlord",
+        "score": 86,
+        "uptime": 96.30647922394564,
+        "delegators": 91,
+        "votingweight": 3.767022092504819e+34
+    },
+    {
+        "account": "xrb_37tuecwghy64eyqcgxmq3fsb9d55frw3yyo8ksubf66b73hz877nmaa5f3mr",
+        "alias": "NanoMAX",
+        "score": 85,
+        "uptime": 96.0245683609808,
+        "delegators": 4,
+        "votingweight": 2.684201445142691e+34
+    },
+    {
+        "account": "xrb_1zc5jynj7rjyd9cakrfdr74jfy47oirts7ikr6538rwmb37ipmxkphu4c116",
+        "alias": "BitDesert",
+        "score": 84,
+        "uptime": 95.88087410558886,
+        "delegators": 17,
+        "votingweight": 3.9598761963920174e+33
+    },
+    {
+        "account": "xrb_187i9cz1rwm65ufi4i65nczginx4iw15n7jb5iaqjgb5o8qte7weca6rbihn",
+        "alias": "Hosted by /u/shoot_first",
+        "score": 84,
+        "uptime": 95.78793774319067,
+        "delegators": 8,
+        "votingweight": 1.0033242188149093e+33
+    },
+    {
+        "account": "xrb_1rqqh1m14ip1mhadxwxx7bfh33q9u8mmq68eeg9cr1ku7ffdtp7kx479gdt6",
+        "alias": "Matto_Nano",
+        "score": 84,
+        "uptime": 96.26550169109358,
+        "delegators": 0,
+        "votingweight": 1.02903280656789e+33
+    },
+    {
+        "account": "xrb_1hzoje373eapce4ses7xsx539suww5555hi9q8i8j7hpbayzxq4c4nn91hr8",
+        "alias": "🇳🇴-node",
+        "score": 82,
+        "uptime": 95.14459920568328,
+        "delegators": 4,
+        "votingweight": 1.7552123934976608e+33
+    },
+    {
+        "account": "xrb_1oenixj4qtpfcembga9kqwggkb87wooicfy5df8nhdywrjrrqxk7or4gz15b",
+        "alias": "LuckyNano.com - Casino - Faucet - Representative",
+        "score": 81,
+        "uptime": 94.90209549982825,
+        "delegators": 89,
+        "votingweight": 9.651825357043254e+34
+    },
+    {
+        "account": "xrb_39h84yjybtki13jiq1hbogjbaiq3osmb5q76r1u7pgut5fn8jbzw9dzq65ye",
+        "alias": "NaNosTraDaMus",
+        "score": 81,
+        "uptime": 96.7722412749647,
+        "delegators": 0,
+        "votingweight": 1.9978193706886213e+33
+    },
+    {
+        "account": "xrb_375pi67f4i4ag5rudoziza86z715bepsmp1r6ri4domt7ct6tk67mjsxtebm",
+        "alias": "Nanovert Rep",
+        "score": 81,
+        "uptime": 97.80564263322884,
+        "delegators": 0,
+        "votingweight": 1.636874946892578e+34
+    }
+]

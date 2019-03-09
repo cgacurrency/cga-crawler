@@ -8,7 +8,7 @@ export default class RandomVerifiedAccounts extends React.Component {
   state = { accounts: [] };
 
   async componentDidMount() {
-    const data = await fetch("https://mynano.ninja/api/accounts/verified", {
+    const data = await fetch("/verified.json", {
       mode: "cors"
     });
     const accounts = await data.json();
