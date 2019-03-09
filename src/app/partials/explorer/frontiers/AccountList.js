@@ -75,13 +75,15 @@ class Account extends React.PureComponent {
             <PriceWithConversions
               amount={balance}
               currencies={["base", "btc", "usd"]}
+              // currencies={["base", "btc", "usd"]}
             >
-              {(base, btc, usd) => (
+              {(base) => (
+              // {(base, btc, usd) => (
                 <Fragment>
                   <h5 className="mb-0">{base}</h5>
-                  <p className="text-muted mb-0">
+                  {/* <p className="text-muted mb-0">
                     {btc} / {usd}
-                  </p>
+                  </p> */}
                 </Fragment>
               )}
             </PriceWithConversions>
