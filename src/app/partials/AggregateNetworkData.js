@@ -8,7 +8,7 @@ import { TranslatedMessage } from "lib/TranslatedMessage";
 import config from "client-config.json";
 import { apiClient } from "lib/Client";
 
-import DiscoveredPeers from "./network/DiscoveredPeers";
+// import DiscoveredPeers from "./network/DiscoveredPeers";
 
 export default class AggregateNetworkData extends React.Component {
   constructor(props) {
@@ -233,7 +233,7 @@ export default class AggregateNetworkData extends React.Component {
           </div>
         </div>
 
-        <div className="row mt-5 align-items-center">
+        {/* <div className="row mt-5 align-items-center">
           <div className="col-sm">
             <h3 className="mb-0">
               <TranslatedMessage
@@ -249,9 +249,9 @@ export default class AggregateNetworkData extends React.Component {
             </p>
             <SyncThresholds />
           </div>
-        </div>
+        </div> */}
 
-        <DiscoveredPeers peers={this.servicePeers()} stats={blockStats} />
+        {/* <DiscoveredPeers peers={this.servicePeers()} stats={blockStats} />
 
         <div className="row mt-5 align-items-center">
           <div className="col-sm">
@@ -273,7 +273,7 @@ export default class AggregateNetworkData extends React.Component {
           </div>
         </div>
 
-        <DiscoveredPeers peers={this.state.peers} stats={blockStats} />
+        <DiscoveredPeers peers={this.state.peers} stats={blockStats} /> */}
       </Fragment>
     );
   }
