@@ -185,7 +185,8 @@ class Account extends React.Component {
                 <PriceWithConversions
                   raw
                   amount={balance}
-                  currencies={["base", "usd", "btc"]}
+                  currencies={["base"]}
+                  // currencies={["base", "usd", "btc"]}
                 >
                   {(base, usd, btc) => {
                     return (
@@ -195,9 +196,9 @@ class Account extends React.Component {
                           displayValue={base}
                         />
 
-                        <p className="text-muted mb-0">
+                        {/* <p className="text-muted mb-0">
                           {usd} / {btc}
-                        </p>
+                        </p> */}
                         <p className="text-muted mb-0">
                           <FormattedNumber
                             value={Currency.fromRaw(pending)}
