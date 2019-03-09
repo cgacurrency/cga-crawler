@@ -7,7 +7,7 @@ export default function apiV2(nano) {
   require("./v2/confirmation").default(app, nano);
   require("./v2/representatives").default(app, nano);
   require("./v2/search").default(app, nano);
-  require("./v2/ticker").default(app, nano);
+  // require("./v2/ticker").default(app, nano);
 
   return app;
 }
