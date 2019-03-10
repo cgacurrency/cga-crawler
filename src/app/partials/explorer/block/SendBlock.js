@@ -51,8 +51,10 @@ export default function SendBlock({ block }) {
           <PriceWithConversions
             raw
             amount={block.amount}
-            currencies={["base", "usd", "btc"]}
-            precision={{ base: 20, btc: 6, usd: 4 }}
+            // currencies={["base", "usd", "btc"]}
+            currencies={["base"]}
+            precision={{ base: 20}}
+            // precision={{ base: 20, btc: 6, usd: 4 }}
           />
         </small>
       </h4>
