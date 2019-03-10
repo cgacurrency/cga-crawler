@@ -1,0 +1,22 @@
+{
+  "server": "https://api.cganode.com",
+  "websocketServer": "ws.cganode.com",
+  "donationAddress":
+    "cga_31b5uf1mum7qoib5gri47hdzgbiqmab16yeqn6myyoaozuopur61i6yag18z",
+  "currency": {
+    "name": "CGA",
+    "shortName": "CGA",
+    "precision": 30,
+    "maxSupply": 3402823669.2,
+    "prefixes": ["cga", "CGA"],
+    "qrPrefix": "cga",
+    "supportsMyNanoNinja": false
+  },
+  "features": {
+    "nodeStatus": true,
+    "supportedLanguages": {
+      "en": "English"
+    }
+  },
+  "serviceMonitors": []
+}

@@ -1,0 +1,26 @@
+{
+  "nodeName": "cganode.com",
+  "account": "cga_3n3y5y6q8qhos9rjdabme6r4tm5b1us7e6db1og4iw5tb6ssza9ft3cu3ht7",
+  "clientUrl": "https://cganode.com",
+  "raiblocksDir": "/root/Cga",
+  "nodeHost": "http://[::]:7076",
+  "redis": "redis://127.0.0.1:6379",
+  "redisNamespace": "cga_development",
+  "serverPort": 3001,
+  "openExchangeRatesAppId": "",
+  "coinMarketCapApiKey": "",
+  "monitorCurrencyName": "cga",
+  "knownMonitors": [],
+  "blacklistedPeers": ["95.216.137.65"],
+  "officialRepresentatives": [
+    "cga_1xksznc4bmzcrayzxrcy5de8dit4b7hr5tfidywznfdc1y8x8e658jpduf47",
+    "cga_3mi6w77bff38dtirc48ffx7ooqtx8f58ppk3tthq6zrcrp8bqxmami9fpg44",
+    "cga_15cpamy1n9gyb7h7oznqprtb1fi73bdowzmc5zwop9d5iftnux8tub1bywz3",
+    "cga_3oeohdp6rm53gnjtawhcwyuroc1outny6qnqt9qd7r8trig9foafh9byh3xm",
+    "cga_1osbecbw4ujf4rmw5y79g43qrkjxu4oosm8jyoxoxpobppyg85x3i934jw4w",
+    "cga_3sjyrcymjz5co3f1df5nr669d88owi5ak8faixh7aou367ugypxbofpkjhj6",
+    "cga_3m9noxctg6nx6e8d58s98pznk8ygkahzscap1hr6qc97mqrtc53fgbnsr63q",
+    "cga_31b5uf1mum7qoib5gri47hdzgbiqmab16yeqn6myyoaozuopur61i6yag18z",
+    "cga_3n3y5y6q8qhos9rjdabme6r4tm5b1us7e6db1og4iw5tb6ssza9ft3cu3ht7"
+  ]
+}
