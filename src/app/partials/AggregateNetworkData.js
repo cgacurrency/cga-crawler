@@ -21,9 +21,9 @@ export default class AggregateNetworkData extends React.Component {
     this.timeout = null;
   }
 
-  componentWillMount() {
-    this.updateStats();
-  }
+  // componentWillMount() {
+  //   this.updateStats();
+  // }
 
   componentWillUnmount() {
     if (this.timeout) clearTimeout(this.timeout);
