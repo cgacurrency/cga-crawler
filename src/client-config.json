@@ -1,22 +1,21 @@
 {
-  "server": "https://api.xpdnode.com",
-  "websocketServer": "ws.xpdnode.com",
+  "server": "https://api.cganode.com",
+  "websocketServer": "ws.cganode.com",
   "donationAddress":
-    "xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn",
+    "cga_31b5uf1mum7qoib5gri47hdzgbiqmab16yeqn6myyoaozuopur61i6yag18z",
   "currency": {
-    "name": "Xpeed",
-    "shortName": "XPD",
+    "name": "CGA",
+    "shortName": "CGA",
     "precision": 30,
     "maxSupply": 3402823669.2,
-    "prefixes": ["xpd", "xpeed"],
-    "qrPrefix": "xpd",
+    "prefixes": ["cga", "CGA"],
+    "qrPrefix": "cga",
     "supportsMyNanoNinja": false
   },
   "features": {
     "nodeStatus": true,
     "supportedLanguages": {
-      "en": "English",
-      "ko": "한국어"
+      "en": "English"
     }
   },
   "serviceMonitors": []
