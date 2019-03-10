@@ -83,7 +83,7 @@ class Account extends React.PureComponent {
                   <h5 className="mb-0">{base}</h5>
                   {/* <p className="text-muted mb-0">
                     {btc} / {usd}
-                  </p> */}
+                  </p>  */}
                 </Fragment>
               )}
             </PriceWithConversions>
