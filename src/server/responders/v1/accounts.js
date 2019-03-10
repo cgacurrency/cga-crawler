@@ -161,7 +161,7 @@ export default function(app, nano) {
             });
 
           for (let i = 0; i < blocks.length; i++) {
-            blocks[i].timestamp = await getTimestampForHash(blocks[i].hash);
+            blocks[i].timestamp = await getTimestampForHash(blocks[i].hash); 
           }
 
           return {
