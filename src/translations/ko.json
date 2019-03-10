@@ -2,7 +2,7 @@
     "nav.explorer": "Explorer",
     "nav.network": "네트워크 상태",
     "nav.status": "노드 상태",
-    "explorer.title": "XPEED EXPLOER",
+    "explorer.title": "CGA EXPLOER",
     "explorer.form.help":
         "{currency}계정주소 혹은 블록해시값을 입력하세요.",
     "explorer.known_accounts": "알려진 계정",
@@ -171,7 +171,7 @@
         "All epoch blocks use the same value for this field, which is \"epoch v1 block\" encoded in hex format.",
     "block.original.title": "Original Block Content",
     "block.original.desc":
-        "The RPC response from the {rpcCmd} call. The timestamp field is added by XpeedNode, and the block contents are JSON decoded.",
+        "The RPC response from the {rpcCmd} call. The timestamp field is added by CGANode, and the block contents are JSON decoded.",
     "ninja.verified_by": "Verified by {link}",
     "ninja.uptime": "Uptime {percent}",
     "ninja.last_voted": "Last voted {date}",

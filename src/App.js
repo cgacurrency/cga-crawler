@@ -31,17 +31,17 @@ function App({ locale }) {
         <div className="row mr-0 align-items-center">
           <div className="col-md">
             <div className="py-2 px-4">
-              <p className="mb-0">Powered by XPEEDCOIN</p>
+              <p className="mb-0">Powered by Cypto Game Alliance</p>
             </div>
           </div>
           <div className="col-auto text-md-right">
             <div className="py-2 px-4">
               <a
-                href="https://xpeedcoin.com"
+                href="https://cgaio.com"
                 target="_blank"
                 className="btn btn-sm btn-nano-primary mb-1"
               >
-                XPEEDCOIN.COM
+                CGAIO.COM
               </a>
             </div>
           </div>

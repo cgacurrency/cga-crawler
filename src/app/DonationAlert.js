@@ -31,7 +31,7 @@ export default class DonationAlert extends React.Component {
             className="alert alert-secondary alert-dismissible fade show d-none d-md-block"
             role="alert"
           >
-            Welcome to official block explorer! XPEED EXPLORER  is a free-to-use service that has a strict no-ads
+            Welcome to official block explorer! CGA EXPLORER  is a free-to-use service that has a strict no-ads
             policy.
           </div>
         </div>

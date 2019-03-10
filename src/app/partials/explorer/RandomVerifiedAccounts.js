@@ -26,7 +26,7 @@ export default class RandomVerifiedAccounts extends React.Component {
           <TranslatedMessage
             id="ninja.verified_accounts.desc"
             values={{
-              link: "XPEED EXPLORER"
+              link: "CGA EXPLORER"
             }}
           />
         </p>

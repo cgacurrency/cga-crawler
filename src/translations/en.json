@@ -2,7 +2,7 @@
     "nav.explorer": "Explorer",
     "nav.network": "Network Status",
     "nav.status": "Node Status",
-    "explorer.title": "XPEED EXPLOER",
+    "explorer.title": "CGA EXPLOER",
     "explorer.form.help":
         "Enter a {currency} address or block hash to get started.",
     "explorer.known_accounts": "Known Accounts",
