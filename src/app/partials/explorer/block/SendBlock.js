@@ -116,13 +116,15 @@ export default function SendBlock({ block }) {
 
       <hr class="hr-space"></hr>
 
-      
+
       <h5>
         <TranslatedMessage id="block.signature" />{" "}
         <small className="text-muted break-word">
           {block.contents.signature}
         </small>
       </h5>
+
+      <hr class="hr-space"></hr>
 
       <RawBlockContents block={block} className="mt-5" />
     </div>

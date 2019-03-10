@@ -146,6 +146,8 @@ export default function OpenBlock({ block }) {
         </small>
       </h5>
 
+      <hr class="hr-space"></hr>
+
       <RawBlockContents block={block} className="mt-5" />
     </div>
   );
