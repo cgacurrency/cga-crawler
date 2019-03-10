@@ -10,9 +10,9 @@
     <Developer>INFINITY BLOCK</Developer>
     <Contact>hello@infinityblock.co</Contact>
     <Tags>cryptocurrency xpeed xpd account block blockchain node</Tags>
-    <Attribution>Search the Xpeed currency network, https://xpdnode.com/</Attribution>
+    <Attribution>Search the Xpeed currency network, https://cganode.com/</Attribution>
     <SyndicationRight>open</SyndicationRight>
     <Query role="example" searchTerms="xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn"/>
-    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://xpdnode.com/favicon.ico</Image>
-    <Url type="text/html" template="https://xpdnode.com/explorer/auto/{searchTerms}"/>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://cganode.com/favicon.ico</Image>
+    <Url type="text/html" template="https://cganode.com/explorer/auto/{searchTerms}"/>
 </OpenSearchDescription>

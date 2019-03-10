@@ -8,13 +8,13 @@ export default class DonationAlert extends React.Component {
     super(props);
 
     this.state = {
-      open: Cookies.get("xpdnode.donation_alert_dismissed") !== "1"
+      open: Cookies.get("cganode.donation_alert_dismissed") !== "1"
     };
   }
 
   onDismiss() {
     this.setState({ open: false }, () => {
-      Cookies.set("xpdnode.donation_alert_dismissed", "1", { expires: 7 });
+      Cookies.set("cganode.donation_alert_dismissed", "1", { expires: 7 });
     });
   }
 
