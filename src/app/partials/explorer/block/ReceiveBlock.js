@@ -27,6 +27,8 @@ export default function ReceiveBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <TranslatedMessage id="block.sender" />{" "}
         <small>
@@ -43,6 +45,8 @@ export default function ReceiveBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <span className="text-capitalize">
           <TranslatedMessage id="amount" />
@@ -51,8 +55,10 @@ export default function ReceiveBlock({ block }) {
           <PriceWithConversions
             raw
             amount={block.amount}
-            currencies={["base", "usd", "btc"]}
-            precision={{ base: 20, btc: 6, usd: 4 }}
+            // currencies={["base", "usd", "btc"]}
+            // precision={{ base: 20, btc: 6, usd: 4 }}
+            currencies={["base"]}
+            precision={{ base: 20 }}
           />
         </small>
       </h4>
@@ -67,6 +73,8 @@ export default function ReceiveBlock({ block }) {
           />
         </small>
       </p>
+
+      <hr class="hr-space"></hr>
 
       <h4 className="mb-0">
         <span className="text-capitalize">
@@ -85,6 +93,8 @@ export default function ReceiveBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <span className="text-capitalize">
           <TranslatedMessage id="date" />
@@ -98,6 +108,8 @@ export default function ReceiveBlock({ block }) {
           <TranslatedMessage id="block.timestamp.desc" />
         </small>
       </p>
+
+      <hr class="hr-space"></hr>
 
       <h5 className="mb-0">
         <TranslatedMessage id="block.previous" />{" "}

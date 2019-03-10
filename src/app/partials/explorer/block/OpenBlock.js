@@ -45,6 +45,8 @@ export default function OpenBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <span className="text-capitalize">
           <TranslatedMessage id="amount" />
@@ -53,8 +55,10 @@ export default function OpenBlock({ block }) {
           <PriceWithConversions
             raw
             amount={block.amount}
-            currencies={["base", "usd", "btc"]}
-            precision={{ base: 20, btc: 6, usd: 4 }}
+            // currencies={["base", "usd", "btc"]}
+            // precision={{ base: 20, btc: 6, usd: 4 }}
+            currencies={["base"]}
+            precision={{ base: 20}}
           />
         </small>
       </h4>
@@ -69,6 +73,8 @@ export default function OpenBlock({ block }) {
           />
         </small>
       </p>
+
+      <hr class="hr-space"></hr>
 
       <h4 className="mb-0">
         <span className="text-capitalize">
@@ -119,10 +125,14 @@ export default function OpenBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h5>
         <TranslatedMessage id="block.pow" />{" "}
         <small className="text-muted break-word">{block.contents.work}</small>
       </h5>
+
+      <hr class="hr-space"></hr>
 
       <h5>
         <TranslatedMessage id="block.signature" />{" "}
