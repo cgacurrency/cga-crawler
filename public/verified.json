@@ -1,32 +1,32 @@
 [
     {
-        "account": "xpd_3b7y3otbf3ebmcnk1fgpcz7dszneuj7byi4juehpa3suq4fard3fm5os9ykn",
+        "account": "cga_1yjanef67reh8x61dt87w9bmcshdj8gzhds8nhuknzgjza4bqu58xb9pk3ua",
         "alias": "GENESIS",
         "score": 99
     },
     {
-        "account": "xpd_13capxpetn6zqddy8ksmoj71ubjcskh1qxtwgedg4rg7ehzwdkmn4d4t9wtu",
+        "account": "cga_1111111111111111111111111111111111111111111111111111hifc8npp",
+        "alias": "BURN",
+        "score": 99
+    },
+    {
+        "account": "cga_13j1yy5uijcb8xwa69wh5139ioj3so9wq73bxsot1ey5fzneuya8d5wfcga1",
+        "alias": "DEFENCE",
+        "score": 99
+    },
+    {
+        "account": "cga_1yqpgtdxrmijjutw4sczedwjmyu3urz9pg9nofjc1j99m3so3sbmqfck968t",
+        "alias": "PRIVATE SALE",
+        "score": 99
+    },
+    {
+        "account": "cga_1zeipj3z884ab7mfqhs4eh3fzy85u8oxpba8sgx8cqqctjkjguctdjtmptfk",
+        "alias": "Marketing",
+        "score": 99
+    },
+    {
+        "account": "cga_1m64yi6nuk61ctpdya198oye694mprke6ozqd8hw4jipfmf78wim1bd5kxmy",
         "alias": "Landing 1",
-        "score": 99
-    },
-    {
-        "account": "xpd_3ifz48qgec6us5jjmqs1jocmwudn3n6xqsj364eu8dx3h6pqkyy3t373dm1d",
-        "alias": "Landing 2",
-        "score": 99
-    },
-    {
-        "account": "xpd_3mxccy3qb7g9j8x5ur5e57nigg1h4om8hy5yhr61iorbnocbe85zopyeqe8d",
-        "alias": "Landing 3",
-        "score": 99
-    },
-    {
-        "account": "xpd_3bsm78ysu5kfrqmn5eapmhfuwaitm4yshb66dx6qbno3wbt1o65mgmho1b4o",
-        "alias": "Operation",
-        "score": 99
-    },
-    {
-        "account": "xpd_1shc4ids3hmrwbb8mrykp91i63dzujxqu9jqxsgfw1grf56cmaz7f5xsujfb",
-        "alias": "Top Agent",
         "score": 99
     }
 ]
