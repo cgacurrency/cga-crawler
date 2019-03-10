@@ -29,6 +29,8 @@ export default function OpenBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <TranslatedMessage id="block.open.opened_by" />{" "}
         <small>
@@ -88,6 +90,9 @@ export default function OpenBlock({ block }) {
           />
         </small>
       </h4>
+
+      <hr class="hr-space"></hr>
+
       <p>
         <small>
           <TranslatedMessage id="block.open.rep" />

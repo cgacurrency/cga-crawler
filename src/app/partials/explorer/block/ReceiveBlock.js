@@ -130,6 +130,9 @@ export default function ReceiveBlock({ block }) {
         <TranslatedMessage id="block.pow" />{" "}
         <small className="text-muted break-word">{block.contents.work}</small>
       </h5>
+
+      <hr class="hr-space"></hr>
+      
       <h5>
         <TranslatedMessage id="block.signature" />{" "}
         <small className="text-muted break-word">
