@@ -27,6 +27,8 @@ export default function SendBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <TranslatedMessage id="block.recipient" />{" "}
         <small>
@@ -42,6 +44,8 @@ export default function SendBlock({ block }) {
           <TranslatedMessage id="block.recipient.desc" />
         </small>
       </p>
+
+      <hr class="hr-space"></hr>
 
       <h4 className="mb-0">
         <span className="text-capitalize">
@@ -70,6 +74,8 @@ export default function SendBlock({ block }) {
         </small>
       </p>
 
+      <hr class="hr-space"></hr>
+
       <h4 className="mb-0">
         <span className="text-capitalize">
           <TranslatedMessage id="date" />
@@ -83,6 +89,8 @@ export default function SendBlock({ block }) {
           <TranslatedMessage id="block.timestamp.desc" />
         </small>
       </p>
+
+      <hr class="hr-space"></hr>
 
       <h5 className="mb-0">
         <TranslatedMessage id="block.previous" />{" "}
@@ -98,6 +106,8 @@ export default function SendBlock({ block }) {
           <TranslatedMessage id="block.previous.desc" />
         </small>
       </p>
+
+      <hr class="hr-space"></hr>
 
       <h5>
         <TranslatedMessage id="block.pow" />{" "}
