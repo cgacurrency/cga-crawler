@@ -179,7 +179,7 @@ class Account extends React.Component {
           <div className="col-auto">
             <div className="row">
               <div className="col-auto pr-0">
-                <AccountQR account={account} style={{ width: "80px" }} />
+                <AccountQR account={account} style={{ width: "100px" }} />
               </div>
               <div className="col">
                 <PriceWithConversions

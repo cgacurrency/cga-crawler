@@ -172,7 +172,7 @@ class NetworkStatus extends React.Component {
 
     return (
       <div className="p-4">
-        <Helmet title="Network Status" />
+        <Helmet title="CGA Network Status" />
 
         <div className="row align-items-center">
           <div className="col-md">

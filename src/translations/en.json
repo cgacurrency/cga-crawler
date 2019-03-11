@@ -12,7 +12,7 @@
     "explorer.top_accounts_desc":
         "Accounts with the highest balance, including pending transactions",
     "explorer.top_accounts_link": "Accounts and Distribution",
-    "network.title": "Network Status",
+    "network.title": "CGA Network Status",
     "network.reps_online": "{count} representatives online",
     "network.reps_online_desc":
         "Accounts that have at least 1 delegator, regardless of voting weight",

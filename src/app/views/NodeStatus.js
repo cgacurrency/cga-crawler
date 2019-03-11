@@ -58,7 +58,7 @@ export default class NodeStatus extends React.PureComponent {
 
     return (
       <div className="p-4">
-        <Helmet title="Node Status" />
+        <Helmet title="CGA Node Status" />
 
         <div className="row align-items-center">
           <div className="col-sm">
