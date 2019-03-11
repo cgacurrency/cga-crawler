@@ -24,6 +24,8 @@ export default class StateBlock extends React.Component {
           </small>
         </p>
 
+        <hr class="hr-space"></hr>
+
         <h4 className="mb-0">
           <span className="text-capitalize">
             <TranslatedMessage id="account" />
@@ -42,6 +44,8 @@ export default class StateBlock extends React.Component {
           </small>
         </p>
 
+        <hr class="hr-space"></hr>
+
         <h4 className="mb-0">
           <span className="text-capitalize">
             <TranslatedMessage id="amount" />
@@ -50,8 +54,10 @@ export default class StateBlock extends React.Component {
             <PriceWithConversions
               raw
               amount={block.amount}
-              currencies={["base", "usd", "btc"]}
-              precision={{ base: 20, btc: 6, usd: 4 }}
+              currencies={["base"]}
+              precision={{ base: 20 }}
+              // currencies={["base", "usd", "btc"]}
+              // precision={{ base: 20, btc: 6, usd: 4 }}
             />
           </small>
         </h4>
@@ -66,6 +72,8 @@ export default class StateBlock extends React.Component {
             />
           </small>
         </p>
+
+        <hr class="hr-space"></hr>
 
         <h4 className="mb-0">
           <span className="text-capitalize">
@@ -87,6 +95,8 @@ export default class StateBlock extends React.Component {
             <TranslatedMessage id="block.balance.desc" />
           </small>
         </p>
+
+        <hr class="hr-space"></hr>
 
         <h4 className="mb-0">
           <span className="text-capitalize">
@@ -121,6 +131,8 @@ export default class StateBlock extends React.Component {
             <TranslatedMessage id="block.timestamp.desc" />
           </small>
         </p>
+
+        <hr class="hr-space"></hr>
 
         <h5 className="mb-0">
           <TranslatedMessage id="block.previous" />{" "}
