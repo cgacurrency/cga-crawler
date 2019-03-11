@@ -117,6 +117,8 @@ export default class StateBlock extends React.Component {
           </small>
         </p>
 
+        <hr class="hr-space"></hr>
+
         {this.getStateBlockExtraInfo()}
 
         <h4 className="mb-0">
@@ -205,6 +207,7 @@ export default class StateBlock extends React.Component {
                 <TranslatedMessage id="block.sender.desc" />
               </small>
             </p>
+            <hr class="hr-space"></hr>
           </Fragment>
         );
       case "send":
@@ -225,6 +228,7 @@ export default class StateBlock extends React.Component {
                 <TranslatedMessage id="block.recipient.desc" />
               </small>
             </p>
+            <hr class="hr-space"></hr>
           </Fragment>
         );
       default:
@@ -278,6 +282,7 @@ export default class StateBlock extends React.Component {
         <p>
           <small>{meaning}</small>
         </p>
+        <hr class="hr-space"></hr>
       </Fragment>
     );
   }
