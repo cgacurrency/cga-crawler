@@ -6,7 +6,7 @@
   "currency": {
     "name": "CGA",
     "shortName": "CGA",
-    "precision": 30,
+    "precision": 29,
     "maxSupply": 3402823669.2,
     "prefixes": ["cga", "CGA"],
     "qrPrefix": "cga",
