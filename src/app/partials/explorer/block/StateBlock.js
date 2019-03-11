@@ -83,7 +83,8 @@ export default class StateBlock extends React.Component {
             <PriceWithConversions
               raw
               amount={block.contents.balance}
-              currencies={["base", "usd", "btc"]}
+              currencies={["base"]}
+              // currencies={["base", "usd", "btc"]}
             />
           </small>
         </h4>
