@@ -1,11 +1,11 @@
 :root {
-  --nano-blue: #770975;
+  --cga-blue: #0e0e0e;
   --xpd-purple: #770975;
 }
 
 h1 {
   font-weight: bolder;
-  color: #5b33af;
+  color: #3a77c5;
 }
 
 .text-monospace {
@@ -14,8 +14,8 @@ h1 {
 }
 
 .btn-nano-primary {
-  background-color: var(--nano-blue);
-  border-color: var(--nano-blue);
+  background-color: var(--cga-blue);
+  border-color: var(--cga-blue);
   color: #fff;
 }
 
@@ -24,23 +24,23 @@ h1 {
 }
 
 .nav-pills .nav-link.nano {
-  color: var(--nano-blue);
+  color: var(--cga-blue);
 }
 
 .nav-pills .nav-link.nano.active {
-  background-color: var(--nano-blue);
+  background-color: var(--cga-blue);
   color: #fff;
 }
 
 .pagination .page-item .page-link {
-  color: var(--nano-blue);
+  color: var(--cga-blue);
   background-color: white;
 }
 
 .pagination .page-item.active .page-link {
   color: white;
-  background-color: var(--nano-blue);
-  border-color: var(--nano-blue);
+  background-color: var(--cga-blue);
+  border-color: var(--cga-blue);
 }
 
 .break-word {
@@ -52,8 +52,7 @@ h1 {
 }
 
 #App .Header {
-  background: #5b35ac;
-  background: linear-gradient(135deg, #5b35ac 17%,#872086 68%,#872086 72%);
+  background: #000000;
   color: #fff;
 }
 
