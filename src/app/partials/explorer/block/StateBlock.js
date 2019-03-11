@@ -149,6 +149,8 @@ export default class StateBlock extends React.Component {
 
         {this.getLink()}
 
+        <hr class="hr-space"></hr>
+
         <h5>
           <TranslatedMessage id="block.pow" />{" "}
           <small className="text-muted break-word">{block.contents.work}</small>
