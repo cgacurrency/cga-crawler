@@ -4,7 +4,7 @@ import config from "../client-config.json";
 export default {
   fromRaw: raw => {
     const value = BigNumber(raw.toString());
-    return value.shiftedBy((config.currency.precision || 30) * -10).toNumber();
+    return value.shiftedBy((config.currency.precision || 30) * -2).toNumber();
   },
 
   toRaw: mvalue => {
