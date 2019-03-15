@@ -10,7 +10,8 @@
     "maxSupply": 3402823669.2,
     "prefixes": ["cga", "CGA"],
     "qrPrefix": "cga",
-    "supportsMyNanoNinja": false
+    "supportsMyNanoNinja": false,
+    "NODEalias": true
   },
   "features": {
     "nodeStatus": true,

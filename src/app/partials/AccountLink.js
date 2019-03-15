@@ -30,7 +30,7 @@ export default class AccountLink extends React.Component {
     if (alias) {
       accountName = (
         <Fragment>
-          <b>{alias}</b> - {accountName}
+          <strong>{alias}</strong> - {accountName}
         </Fragment>
       );
     }
