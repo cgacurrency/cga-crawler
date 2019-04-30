@@ -6,7 +6,7 @@
   "currency": {
     "name": "Xpeed",
     "shortName": "XPD",
-    "precision": 30,
+    "precision": 29,
     "maxSupply": 3402823669.2,
     "prefixes": ["xpd", "xpeed"],
     "qrPrefix": "xpd",
