@@ -2,7 +2,7 @@
   "server": "https://api.cganode.com",
   "websocketServer": "ws.cganode.com",
   "donationAddress":
-    "cga_31b5uf1mum7qoib5gri47hdzgbiqmab16yeqn6myyoaozuopur61i6yag18z",
+    "cga_34pj5r1ej1byyni9xs1qi61mjist3fbhahh1fdip8rsfa7gcqsn9xwrfcf8r",
   "currency": {
     "name": "CGA",
     "shortName": "CGA",

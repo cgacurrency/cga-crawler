@@ -12,7 +12,7 @@
     <Tags>cryptocurrency cga game alliance account block blockchain node</Tags>
     <Attribution>Search the CGA currency network, https://cganode.com/</Attribution>
     <SyndicationRight>open</SyndicationRight>
-    <Query role="example" searchTerms="cga_1yjanef67reh8x61dt87w9bmcshdj8gzhds8nhuknzgjza4bqu58xb9pk3ua"/>
+    <Query role="example" searchTerms="cga_31b5uf1mum7qoib5gri47hdzgbiqmab16yeqn6myyoaozuopur61i6yag18z"/>
     <Image height="16" width="16" type="image/vnd.microsoft.icon">https://cganode.com/favicon.ico</Image>
     <Url type="text/html" template="https://cganode.com/explorer/auto/{searchTerms}"/>
 </OpenSearchDescription>
