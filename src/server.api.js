@@ -5,7 +5,7 @@ import cors from "cors";
 
 import apiV1 from "./server/responders/v1";
 import apiV2 from "./server/responders/v2";
-import apiInfinity from "./server/responders/infinity";
+// import apiInfinity from "./server/responders/infinity";
 
 import config from "../server-config.json";
 
@@ -18,7 +18,7 @@ app.use(cors());
 
 app.use(apiV1(nano));
 app.use("/v2", apiV2(nano));
-app.use("/infinity", apiInfinity());
+// app.use("/infinity", apiInfinity());
 
 
 app.get("/", (req, res) => {
