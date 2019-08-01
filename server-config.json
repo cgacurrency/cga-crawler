@@ -2,7 +2,7 @@
   "nodeName": "cganode.com",
   "account": "cga_1tj1cmebxq9z8fb55eem6yt6rajfntdmwkdez9chkcyhxdew5kkcqqy97qjy",
   "clientUrl": "https://cganode.com",
-  "raiblocksDir": "/root/Cga",
+  "raiblocksDir": "/root/CGA",
   "nodeHost": "http://[::]:7132",
   "redis": "redis://127.0.0.1:6379",
   "redisNamespace": "cga_development",
