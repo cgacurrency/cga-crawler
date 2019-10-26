@@ -1,24 +1,24 @@
 {
-  "nodeName": "cganode.com",
-  "account": "cga_1tj1cmebxq9z8fb55eem6yt6rajfntdmwkdez9chkcyhxdew5kkcqqy97qjy",
-  "clientUrl": "https://cganode.com",
-  "raiblocksDir": "/root/CGA",
-  "nodeHost": "http://[::]:7132",
+  "nodeName": "beta.cganode.com",
+  "account": "cga_3f9yqkykxxukqqfo4f594x89f77cfq7mmicefps6edbxhft3at6oe3ux6xz7",
+  "clientUrl": "https://beta.cganode.com",
+  "raiblocksDir": "/root/CGABeta",
+  "nodeHost": "http://[::]:54350",
   "redis": "redis://127.0.0.1:6379",
-  "redisNamespace": "cga_development",
-  "serverPort": 3001,
+  "redisNamespace": "cga_beta",
+  "serverPort": 3002,
   "openExchangeRatesAppId": "",
   "coinMarketCapApiKey": "",
   "monitorCurrencyName": "cga",
   "knownMonitors": [],
   "blacklistedPeers": ["95.216.137.65"],
   "officialRepresentatives": [
-    "cga_1ryx3kh1f1wgpjg78oy8y4ztfk3zwhjaam6f35ybgus7eouxfgqkcn7qjto8",
-    "cga_34pj5r1ej1byyni9xs1qi61mjist3fbhahh1fdip8rsfa7gcqsn9xwrfcf8r",
-    "cga_1jwfag19zkt6ezhf8ekxt14ynfgcn5femd3g35i3ys13ao8dfeocxo6g6q1y",
-    "cga_3qsfwiybsug8teb9iieti4y8taxe1r1rfzsohenmuxew1kepoetxxaf4tkf7",
-    "cga_1ebdrr5ucrchhjui56m9sfqhe43ttnfcp434expwqpp96ik3ujj4h9hkk6mq",
-    "cga_3grmbpnruyni6qtipsoc5ywoprbt3ty8qpbb4esbhan5zjep35cr61nwfiho",
-    "cga_1agm1eiwcu6eiu9m8gwaa5kp361ftrw4mtsyhnk371of59hzk7gh74oyahum"
+    "cga_1beta1ayfkpj1tfbhi3e9ihkocjkqi6ms5e4xrbmbybqnkza1e5jrake8wai",
+    "cga_3q3ku818j8764mjatogd6t8pfoymixhn5rg94n31ypiqwfzm6gfycu7cknon",
+    "cga_1beta4nkzb3g6b1a1qhae89earmz3gk3kfrp3f8hyztm8qyjkeyz9kajfutq",
+    "cga_1beta3kp4j9tn7pko3apyyzbrx789jpc98ep3ufqazanbcxiyyoxmxhjtbfn",
+    "cga_3gqxttskepy7ffhfgc7ot3nd7kgqhjbymrwsayujshsj44tofm9pz4kaz3y5",
+    "cga_1beta5zm6rq4ghp6c9n99j8fz3am8e44dewae5ea7addsjtfo8umsafmr1r7",
+    "cga_3betaz86ypbygpqbookmzpnmd5jhh4efmd8arr9a3n4bdmj1zgnzad7xpmfp"
   ]
 }
