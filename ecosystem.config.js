@@ -1,16 +1,16 @@
 module.exports = {
   apps: [
-    // {
-    //   name: "beta-explorer-api",
-    //   script: "server.api.js",
-    //   instances: 4,
-    //   env: {
-    //     NODE_ENV: "development"
-    //   },
-    //   env_production: {
-    //     NODE_ENV: "production"
-    //   }
-    // },
+    {
+      name: "beta-explorer-api",
+      script: "server.api.js",
+      instances: 4,
+      env: {
+        NODE_ENV: "development"
+      },
+      env_production: {
+        NODE_ENV: "production"
+      }
+    },
     // {
     //   name: "beta-explorer-peers",
     //   script: "server.peers.js",

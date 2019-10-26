@@ -13,7 +13,13 @@ import config from "../server-config.json";
 const app = express();
 const nano = new Nano({ url: config.nodeHost });
 
-app.use(morgan("combined"));
+// app.use(morgan("combined"));
+app.use(
+  morgan('combined', {
+    skip: function (req, res) { return res.statusCode < 400 }
+  })
+);
+
 app.use(cors());
 
 app.use(apiV1(nano));
