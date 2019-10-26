@@ -4,6 +4,7 @@ import redis from "redis";
 import config from "../../server-config.json";
 
 const redisClient = redis.createClient(config.redis);
+redisClient.select(3);
 
 const nano = new Nano({ url: config.nodeHost });
 const STORAGE_PERIOD = 60 * 60 * 24 * 7 * 1000; // 1 week
