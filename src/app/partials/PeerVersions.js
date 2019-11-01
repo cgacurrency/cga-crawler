@@ -56,31 +56,6 @@ export default function PeerVersions({ peers }) {
           />
         ))}
       </dl>
-
-      <dl class="PeerVersions">
-        <dd class="position-relative p-3">
-          <div class="PercentBar UptoDate" style="width: 100%;"></div>
-          <div class="VersionName">Version 15 </div>
-          <div class="VersionStats">0% / 0 peer</div>
-        </dd>
-      </dl>
-
-      <dl class="PeerVersions">
-        <dd class="position-relative p-3">
-          <div class="PercentBar" style="width: 100%;"></div>
-          <div class="VersionName">Version 14 </div>
-          <div class="VersionStats">0% / 0 peer</div>
-        </dd>
-      </dl>
-
-      <dl class="PeerVersions">
-        <dd class="position-relative p-3">
-          <div class="PercentBar" style="width: 100%;"></div>
-          <div class="VersionName">Version 13 </div>
-          <div class="VersionStats">0% / 0 peer</div>
-        </dd>
-      </dl>
-      
     </Fragment>
   );
 }
