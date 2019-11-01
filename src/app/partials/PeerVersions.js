@@ -10,7 +10,7 @@ const Version = ({ version, count, total }) => {
   return (
     <dd className="position-relative p-3">
       <div
-        className="PercentBar"
+        className="PercentBar UptoDate"
         style={{ width: `${(count / total) * 100}%` }}
       />
 
@@ -57,8 +57,8 @@ export default function PeerVersions({ peers }) {
         ))}
       </dl>
       <dl className="PeerVersions">
-        <dd class="position-relative p-3">
-          <div class="PercentBar UptoDate" style={{width: `100%`}}></div>
+        <dd className="position-relative p-3">
+          <div className="PercentBar" style={{width: `0%`}}></div>
           <div className="VersionName">Version 15</div>
           <div className="VersionStats">0% / 0 peer</div>
         </dd>
