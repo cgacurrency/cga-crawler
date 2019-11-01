@@ -331,7 +331,6 @@ class NetworkStatus extends React.Component {
           </div>
           <div className="col-md mt-3 mt-md-0">
             <PeerVersions peers={this.state.peers} />
-            
           </div>
         </div>
 
