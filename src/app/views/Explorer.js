@@ -9,6 +9,7 @@ import RandomVerifiedAccounts from "app/partials/explorer/RandomVerifiedAccounts
 import ExplorerTopAccounts from "app/partials/explorer/ExplorerTopAccounts";
 import RecentBlockStream from "app/partials/explorer/RecentBlockStream";
 
+
 import "./Explorer.css";
 
 class Explorer extends React.PureComponent {
@@ -36,45 +37,58 @@ class Explorer extends React.PureComponent {
     const { search } = this.state;
 
     return (
-      <div className="row justify-content-center my-5 mx-0">
-        <Helmet title="CGA Network Explorer" />
+      <div className="row justify-content-center flex-column mb-5 mx-0">
+        <Helmet title="CGA NETWORK EXPLORER" />
 
-        <div className="col col-md-8">
-          <h1 className="d-flex align-items-center">
-            <TranslatedMessage id="explorer.title" />
-            <span className="badge badge-info text-uppercase maxh ml-2">
-              <TranslatedMessage id="explorer.title.beta" />
-            </span>
-            
-            
-          </h1>
+        <div className="maintop">
+          <div className="mtchild mx-auto">
+            <div className="col col-md-8 mx-auto">
 
-          <hr />
+              <h1 className="d-flex align-items-center mt-5 extitle">
+                <TranslatedMessage id="explorer.title" />
+                <span className="badge badge-info text-uppercase maxh ml-2">
+                  <TranslatedMessage id="explorer.title.beta" />
+                </span>
+                
+                
+              </h1>
 
-          <form className="my-5" onSubmit={this.handleSubmit.bind(this)}>
-            <label>
-              <TranslatedMessage
-                id="explorer.form.help"
-                values={{ currency: config.currency.name }}
-              />
-            </label>
+              <hr />
 
-            <div className="form-row">
-              <div className="col-md">
-                <ValidatedSearch
-                  size="lg"
-                  onChange={({ search, type, valid }) =>
-                    this.setState({ search, type, valid })
-                  }
-                />
-              </div>
-              <div className="col-auto mt-2 mt-md-0">
-                <button className="btn btn-nano-primary btn-lg">
-                  <TranslatedMessage id="search" />
-                </button>
-              </div>
+              <form className="my-5" onSubmit={this.handleSubmit.bind(this)}>
+                <label>
+                  <TranslatedMessage
+                    id="explorer.form.help"
+                    values={{ currency: config.currency.name }}
+                  />
+                </label>
+
+                <div className="form-row">
+                  <div className="col-md">
+                    <ValidatedSearch
+                      size="lg"
+                      onChange={({ search, type, valid }) =>
+                        this.setState({ search, type, valid })
+                      }
+                    />
+                  </div>
+                  <div className="col-auto mt-2 mt-md-0">
+                    <button className="btn btn-nano-primary btn-lg">
+                      <TranslatedMessage id="search" />
+                    </button>
+                  </div>
+                </div>
+              </form>
+
             </div>
-          </form>
+          </div>
+        </div>
+
+        <div className="col col-md-8 mx-auto toplast">
+
+          <div className="mt-5">
+            <RecentBlockStream count={10} />
+          </div>
 
           <RandomVerifiedAccounts count={5} />
 
@@ -82,9 +96,7 @@ class Explorer extends React.PureComponent {
             <ExplorerTopAccounts count={5} />
           </div>
 
-          <div className="mt-5">
-            <RecentBlockStream count={10} />
-          </div>
+
         </div>
       </div>
     );

@@ -13,6 +13,8 @@ import ReceiveBlock from "./stream/ReceiveBlock";
 import SendBlock from "./stream/SendBlock";
 import StateBlock from "./stream/StateBlock";
 
+import Loading from "../../images/crawler_loading.gif";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class RecentBlockStream extends React.Component {
@@ -115,6 +117,7 @@ export default class RecentBlockStream extends React.Component {
     return (
       <div className="my-5 text-center">
         <h5 className="text-muted">
+          <p><img src={Loading} /></p>
           <TranslatedMessage id="stream.waiting" />
         </h5>
       </div>
