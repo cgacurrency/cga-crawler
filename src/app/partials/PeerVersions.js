@@ -42,9 +42,12 @@ export default function PeerVersions({ peers }) {
 
   return (
     <Fragment>
-      <h2>
+      <h2 className="mb-0">
         <TranslatedMessage id="network.peer_versions" />
       </h2>
+      <p className="text-muted">
+        <TranslatedMessage id="network.peer_versions.desc" />
+      </p>
 
       <dl className="PeerVersions">
         {sortedVersions.map(data => (
@@ -56,10 +59,27 @@ export default function PeerVersions({ peers }) {
           />
         ))}
       </dl>
+      
       <dl className="PeerVersions">
         <dd className="position-relative p-3">
           <div className="PercentBar" style={{width: `100%`}}></div>
           <div className="VersionName">Version 15</div>
+          <div className="VersionStats">0% / 0 peer</div>
+        </dd>
+      </dl>
+
+      <dl className="PeerVersions">
+        <dd className="position-relative p-3">
+          <div className="PercentBar" style={{width: `100%`}}></div>
+          <div className="VersionName">Version 14</div>
+          <div className="VersionStats">0% / 0 peer</div>
+        </dd>
+      </dl>
+
+      <dl className="PeerVersions">
+        <dd className="position-relative p-3">
+          <div className="PercentBar" style={{width: `100%`}}></div>
+          <div className="VersionName">Version 13</div>
           <div className="VersionStats">0% / 0 peer</div>
         </dd>
       </dl>
