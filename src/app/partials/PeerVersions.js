@@ -58,7 +58,7 @@ export default function PeerVersions({ peers }) {
       </dl>
       <dl className="PeerVersions">
         <dd class="position-relative p-3">
-          <div class="PercentBar UptoDate" style="{'width: 100%'}"></div>
+          <div class="PercentBar UptoDate" ></div>
           <div className="VersionName">Version 15</div>
           <div className="VersionStats">0% / 0 peer</div>
         </dd>
