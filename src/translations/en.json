@@ -1,8 +1,11 @@
 {
     "nav.explorer": "Explorer",
-    "nav.network": "Network Status",
+    "nav.network": "Networks",
     "nav.status": "Node Status",
+    "nav.Distribution": "Distribution",
     "explorer.title": "CGA EXPLOER",
+    "explorer.title.live": "Live",
+    "explorer.title.beta": "Beta",
     "explorer.form.help":
         "Enter a {currency} address or block hash to get started.",
     "explorer.known_accounts": "Known Accounts",

@@ -9,6 +9,8 @@ import RandomVerifiedAccounts from "app/partials/explorer/RandomVerifiedAccounts
 import ExplorerTopAccounts from "app/partials/explorer/ExplorerTopAccounts";
 import RecentBlockStream from "app/partials/explorer/RecentBlockStream";
 
+import "./Explorer.css";
+
 class Explorer extends React.PureComponent {
   state = {
     search: "",
@@ -38,8 +40,13 @@ class Explorer extends React.PureComponent {
         <Helmet title="CGA Network Explorer" />
 
         <div className="col col-md-8">
-          <h1>
+          <h1 className="d-flex align-items-center">
             <TranslatedMessage id="explorer.title" />
+            <span className="badge badge-info text-uppercase maxh ml-2">
+              <TranslatedMessage id="explorer.title.beta" />
+            </span>
+            
+            
           </h1>
 
           <hr />

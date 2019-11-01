@@ -45,6 +45,16 @@ const Navigation = () => {
               <TranslatedMessage id="nav.network" />
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              to="/explorer/accounts/1"
+              className="nav-link  pr-1 pr-md-3"
+              activeClassName="active"
+            >
+              <TranslatedMessage id="nav.Distribution" />
+            </NavLink>
+          </li>
           {config.features.nodeStatus && (
             <li className="nav-item">
               <NavLink

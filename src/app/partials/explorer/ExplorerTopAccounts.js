@@ -5,6 +5,8 @@ import PriceWithConversions from "app/partials/PriceWithConversions";
 import { apiClient } from "lib/Client";
 import { TranslatedMessage } from "lib/TranslatedMessage";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Account = ({ account, balance, rank }) => {
   return (
     <Fragment>
@@ -62,6 +64,10 @@ export default class ExplorerTopAccounts extends React.Component {
         <div className="row align-items-center">
           <div className="col-md">
             <h3 className="mb-0">
+              <FontAwesomeIcon
+                icon="kiss-wink-heart"
+                color={'#f783ac'}
+              />{" "}
               <TranslatedMessage
                 id="explorer.top_accounts"
                 values={{ count }}

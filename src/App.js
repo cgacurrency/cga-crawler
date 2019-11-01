@@ -14,10 +14,12 @@ import AccountLink from "./app/partials/AccountLink";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fad } from '@fortawesome/pro-duotone-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 library.add(
   fad,
+  fas,
 )
 
 

@@ -4,6 +4,8 @@ import sampleSize from "lodash/sampleSize";
 
 import AccountLink from "../AccountLink";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 export default class RandomVerifiedAccounts extends React.Component {
   state = { accounts: [] };
 
@@ -20,6 +22,10 @@ export default class RandomVerifiedAccounts extends React.Component {
     return (
       <Fragment>
         <h3 className="mb-0">
+          <FontAwesomeIcon
+            icon={['fad', 'file-certificate']}
+            color={'#5abf1f'}
+          />{" "}
           <TranslatedMessage id="ninja.verified_accounts" />
         </h3>
         <p className="text-muted">

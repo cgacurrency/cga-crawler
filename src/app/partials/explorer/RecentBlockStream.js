@@ -13,6 +13,8 @@ import ReceiveBlock from "./stream/ReceiveBlock";
 import SendBlock from "./stream/SendBlock";
 import StateBlock from "./stream/StateBlock";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 export default class RecentBlockStream extends React.Component {
   constructor(props) {
     super(props);
@@ -67,6 +69,10 @@ export default class RecentBlockStream extends React.Component {
         <div className="row align-items-center">
           <div className="col-sm">
             <h3 className="mb-0">
+              <FontAwesomeIcon
+                icon={['fad', 'broadcast-tower']}
+                color={'#4c6ef5'}
+              />{" "}
               <TranslatedMessage id="stream.title" />
             </h3>
             <p className="text-muted mb-0">
