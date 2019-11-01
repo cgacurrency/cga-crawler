@@ -12,6 +12,15 @@ import Content from "./app/Content";
 
 import AccountLink from "./app/partials/AccountLink";
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fad } from '@fortawesome/pro-duotone-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(
+  fad,
+)
+
+
 function App({ locale }) {
   return (
     <IntlProvider locale={locale.language} messages={locale.messages}>

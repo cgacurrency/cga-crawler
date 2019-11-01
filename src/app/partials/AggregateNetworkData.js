@@ -8,7 +8,7 @@ import { TranslatedMessage } from "lib/TranslatedMessage";
 import config from "client-config.json";
 import { apiClient } from "lib/Client";
 
-// import DiscoveredPeers from "./network/DiscoveredPeers";
+import DiscoveredPeers from "./network/DiscoveredPeers";
 
 export default class AggregateNetworkData extends React.Component {
   constructor(props) {
@@ -21,19 +21,19 @@ export default class AggregateNetworkData extends React.Component {
     this.timeout = null;
   }
 
-  // componentWillMount() {
-  //   this.updateStats();
-  // }
+  componentWillMount() {
+    this.updateStats();
+  }
 
   componentWillUnmount() {
     if (this.timeout) clearTimeout(this.timeout);
   }
 
-  // async updateStats() {
-  //   const peers = await apiClient.networkData();
-  //   this.setState({ peers });
-  //   this.timeout = setTimeout(this.updateStats.bind(this), 10000);
-  // }
+  async updateStats() {
+    const peers = await apiClient.networkData();
+    this.setState({ peers });
+    this.timeout = setTimeout(this.updateStats.bind(this), 10000);
+  }
 
   blockStats() {
     const currentBlocks = compact(
@@ -90,16 +90,6 @@ export default class AggregateNetworkData extends React.Component {
             <p className="text-muted mb-0">
               <TranslatedMessage
                 id="network.aggregate.desc"
-                values={{
-                  link: (
-                    <a
-                      href="https://github.com/NanoTools/nanoNodeMonitor"
-                      target="_blank"
-                    >
-                      nanoNodeMonitors
-                    </a>
-                  )
-                }}
               />
             </p>
           </div>

@@ -33,7 +33,7 @@
     "network.peer_versions.desc": "All peers are up to date!",
     "network.aggregate.title": "Aggregate Network Stats",
     "network.aggregate.desc":
-        "Stats are collected from discovered {link} and filtered to only include nodes with voting weight",
+        "Stats are collected from discovered CGA EXPLORER and filtered to only include nodes with voting weight",
     "network.tracking_nodes": "Tracking {count} nodes",
     "network.avg_sync_status": "Average Sync Status",
     "network.avg_block_count": "Average Block Count",

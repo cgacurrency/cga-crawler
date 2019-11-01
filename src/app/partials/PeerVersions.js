@@ -3,8 +3,12 @@ import { TranslatedMessage } from "lib/TranslatedMessage";
 import keys from "lodash/keys";
 import toPairs from "lodash/toPairs";
 import values from "lodash/values";
-
 import "./PeerVersions.css";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+
 
 const Version = ({ version, count, total }) => {
   return (
@@ -45,7 +49,8 @@ export default function PeerVersions({ peers }) {
       <h2 className="mb-0">
         <TranslatedMessage id="network.peer_versions" />
       </h2>
-      <p className="text-muted">
+      <p className="text-success">
+        <FontAwesomeIcon icon={['fad', 'shield-check']} />{" "}
         <TranslatedMessage id="network.peer_versions.desc" />
       </p>
 

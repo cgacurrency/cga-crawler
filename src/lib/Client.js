@@ -10,10 +10,10 @@ class Client {
     return (await resp.json()).account;
   }
 
-  // async ticker() {
-  //   const resp = await this.fetch("v2/ticker");
-  //   return await resp.json();
-  // }
+  async ticker() {
+    const resp = await this.fetch("v2/ticker");
+    return await resp.json();
+  }
 
   async account(account) {
     const resp = await this.fetch(`v2/accounts/${account}`);
@@ -92,10 +92,10 @@ class Client {
     return (await resp.json()).representatives;
   }
 
-  // async networkData() {
-  //   const resp = await this.fetch("network_data");
-  //   return (await resp.json()).network;
-  // }
+  async networkData() {
+    const resp = await this.fetch("network_data");
+    return (await resp.json()).network;
+  }
 
   async wealthDistribution() {
     const resp = await this.fetch("accounts/distribution");

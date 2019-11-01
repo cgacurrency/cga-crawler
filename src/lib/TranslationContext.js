@@ -31,9 +31,12 @@ class TranslationProvider extends React.Component {
 
   async setLanguage(language) {
     const langConfig = translationMapping[language] || {
-      messages: language,
+      messages: language.split("-")[0],
       intlLocale: language.split("-")[0],
-      momentLocale: language.toLowerCase()
+      momentLocale: language.split("-")[0].toLowerCase()
+      // messages: language,
+      // intlLocale: language.split("-")[0],
+      // momentLocale: language.toLowerCase()
     };
 
     const messages = await import(`../translations/${
