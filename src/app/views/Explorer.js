@@ -90,7 +90,9 @@ class Explorer extends React.PureComponent {
             <RecentBlockStream count={10} />
           </div>
 
-          <RandomVerifiedAccounts count={5} />
+          <div className="mt-5">
+            <RandomVerifiedAccounts count={5} />
+          </div>
 
           <div className="mt-5">
             <ExplorerTopAccounts count={5} />
