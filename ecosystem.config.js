@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "beta-explorer-api",
+      name: "explorer-api",
       script: "server.api.js",
       instances: 4,
       env: {
@@ -12,7 +12,7 @@ module.exports = {
       }
     },
     // {
-    //   name: "beta-explorer-peers",
+    //   name: "explorer-peers",
     //   script: "server.peers.js",
     //   env: {
     //     NODE_ENV: "development"
@@ -22,7 +22,7 @@ module.exports = {
     //   }
     // },
     {
-      name: "beta-explorer-top-accounts",
+      name: "explorer-top-accounts",
       script: "server.top-accounts.js",
       env: {
         NODE_ENV: "development"
@@ -32,7 +32,7 @@ module.exports = {
       }
     },
     {
-      name: "beta-explorer-tps",
+      name: "explorer-tps",
       script: "server.tps.js",
       env: {
         NODE_ENV: "development"
