@@ -47,7 +47,7 @@ class Explorer extends React.PureComponent {
               <h1 className="d-flex align-items-center mt-5 extitle">
                 <TranslatedMessage id="explorer.title" />
                 <span className="badge badge-info text-uppercase maxh ml-2">
-                  <TranslatedMessage id="explorer.title.beta" />
+                  <TranslatedMessage id="explorer.title.live" />
                 </span>
                 
                 

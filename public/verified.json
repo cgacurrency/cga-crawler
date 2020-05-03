@@ -1,6 +1,6 @@
 [
     {
-        "account": "cga_137s8gsgrfe45ozcomsrgyx6w6855b1bfaqqautekswmp46peq6z5jxgqoob",
+        "account": "cga_1bkpgodi5ccyxstqabfac5i4gixzdtczzm6r3upycqzcd9b7rrk9ya83o19s",
         "alias": "GENESIS",
         "score": 99
     },
@@ -10,18 +10,13 @@
         "score": 99
     },
     {
-        "account": "cga_3bh6frsm1qwukspzbqtme8btfgpym4xa4a1eyjn1xntpx3a1i6d8u5ojif89",
-        "alias": "CGA WALLET BETA",
+        "account": "cga_1d3nyhc5oqeu1qw4pxehgpouz4h3uqo6kfd7hseyixxsyzq7n37nigccgodt",
+        "alias": "CGA WALLET",
         "score": 99
     },
     {
-        "account": "cga_31ztyguepmki48o53h7n1qw7etue618kyjkeqiuoztezmgunmikp6wsu67ao",
+        "account": "cga_3ijgsd5d47mx8bw54rxa8ctoj63aheg653ew8c8msrqst9nomdazt7fnyyuz",
         "alias": "CGA GAMES",
-        "score": 99
-    },
-    {
-        "account": "cga_1ueyhpyrp4i3u47fdm3ikzwmd6oe9ewyeqeihhexg6td635biz3f5nysisbb",
-        "alias": "DONATION",
         "score": 99
     }
 ]

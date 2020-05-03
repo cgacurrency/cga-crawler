@@ -48,7 +48,7 @@ function App({ locale }) {
           <div className="col-auto text-md-right">
             <div className="py-2 px-4">
               <a
-                href="https://cgaio.com"
+                href="https://www.cgaio.com"
                 target="_blank"
                 className="btn btn-sm btn-nano-primary mb-1"
               >

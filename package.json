@@ -1,6 +1,6 @@
 {
   "name": "cga-crawler-v2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",

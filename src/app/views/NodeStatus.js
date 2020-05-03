@@ -76,7 +76,7 @@ export default class NodeStatus extends React.PureComponent {
             <h3>
               <span className="text-muted">Version</span>{" "}
               {/* {this.state.version.node_vendor} */}
-              {"CGA BETA 18.0"}
+              {"CGA LIVE 18.0"}
             </h3>
           </div>
         </div>
