@@ -7,6 +7,7 @@ import Currency from "../lib/Currency";
 
 const redisClient = redis.createClient(config.redis);
 const nano = new Nano({ url: config.nodeHost });
+redisClient.select(3);
 
 async function calculateAccountList() {
   console.log("Starting rich list update");

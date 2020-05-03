@@ -10,9 +10,9 @@
     <Developer>INFINITY BLOCK</Developer>
     <Contact>hello@infinityblock.co</Contact>
     <Tags>cryptocurrency cga game alliance account block blockchain node</Tags>
-    <Attribution>Search the CGA currency network, https://cganode.com/</Attribution>
+    <Attribution>Search the CGA currency network, https://www.cganode.com/</Attribution>
     <SyndicationRight>open</SyndicationRight>
     <Query role="example" searchTerms="cga_31b5uf1mum7qoib5gri47hdzgbiqmab16yeqn6myyoaozuopur61i6yag18z"/>
-    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://cganode.com/favicon.ico</Image>
-    <Url type="text/html" template="https://cganode.com/explorer/auto/{searchTerms}"/>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://www.cganode.com/favicon.ico</Image>
+    <Url type="text/html" template="https://www.cganode.com/explorer/auto/{searchTerms}"/>
 </OpenSearchDescription>

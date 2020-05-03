@@ -5,6 +5,7 @@ import config from "../../../server-config.json";
 let redisClient, redisGet, redisSet;
 if (config.redis) {
   redisClient = redis.createClient(config.redis);
+  redisClient.select(3);
   redisClient.on("error", err => {
     console.error("Redis unavailable");
   });

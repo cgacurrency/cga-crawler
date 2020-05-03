@@ -7,6 +7,10 @@
   z-index: 1;
 }
 
+.PeerVersions .PercentBar.UptoDate {
+  background-color: #79d218;
+}
+
 .PeerVersions .VersionName {
   position: absolute;
   top: 5px;

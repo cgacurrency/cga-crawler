@@ -8,7 +8,7 @@ import { TranslatedMessage } from "lib/TranslatedMessage";
 import config from "client-config.json";
 import { apiClient } from "lib/Client";
 
-// import DiscoveredPeers from "./network/DiscoveredPeers";
+import DiscoveredPeers from "./network/DiscoveredPeers";
 
 export default class AggregateNetworkData extends React.Component {
   constructor(props) {

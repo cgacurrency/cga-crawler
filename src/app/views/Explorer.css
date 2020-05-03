@@ -1,0 +1,64 @@
+.extitle {
+    color: #fff !important;
+}
+
+
+.maxh {
+    font-size:14px;
+}
+
+
+.maintop {
+    /* margin-top: -3rem; */
+    background-image: url('../images/crawler.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+
+    position: absolute;
+    top: 173px;
+    left: 0;
+
+
+}
+
+.mtchild {
+    max-width: 1680px;
+}
+
+
+.mtchild hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.32);
+}
+
+
+
+
+.mtchild form > label {
+    color: #fff !important;
+}
+
+.toplast {
+    margin-top: 25rem;
+}
+
+
+@media (min-width: 768px) {
+    .maintop {
+        top: 75px;
+    }
+
+    .toplast {
+        margin-top: 20rem;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .toplast {
+        margin-top: 28rem;
+    }
+
+}

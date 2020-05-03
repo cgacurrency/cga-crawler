@@ -1,6 +1,6 @@
 [
     {
-        "account": "cga_14uwzqcucho6ptf13w8f83o7rb55fj6m4r1ed63gjdik1yn6soiqbwfagoee",
+        "account": "cga_1bkpgodi5ccyxstqabfac5i4gixzdtczzm6r3upycqzcd9b7rrk9ya83o19s",
         "alias": "GENESIS",
         "score": 99
     },
@@ -10,23 +10,13 @@
         "score": 99
     },
     {
-        "account": "cga_1ryx3kh1f1wgpjg78oy8y4ztfk3zwhjaam6f35ybgus7eouxfgqkcn7qjto8",
-        "alias": "DEFENCE",
+        "account": "cga_1d3nyhc5oqeu1qw4pxehgpouz4h3uqo6kfd7hseyixxsyzq7n37nigccgodt",
+        "alias": "CGA WALLET",
         "score": 99
     },
     {
-        "account": "cga_1jwfag19zkt6ezhf8ekxt14ynfgcn5femd3g35i3ys13ao8dfeocxo6g6q1y",
-        "alias": "PRIVATE SALE",
-        "score": 99
-    },
-    {
-        "account": "cga_3qsfwiybsug8teb9iieti4y8taxe1r1rfzsohenmuxew1kepoetxxaf4tkf7",
-        "alias": "Marketing",
-        "score": 99
-    },
-    {
-        "account": "cga_1z75tryto3mj91wxatfhjscz7541s68tducdxqcsgsfku8p8wkzq8i4wkm1a",
-        "alias": "DEBUG",
+        "account": "cga_3ijgsd5d47mx8bw54rxa8ctoj63aheg653ew8c8msrqst9nomdazt7fnyyuz",
+        "alias": "CGA GAMES",
         "score": 99
     }
 ]

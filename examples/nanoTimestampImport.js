@@ -5,6 +5,7 @@ const { chain } = require("stream-chain");
 const { parser } = require("stream-json");
 const { streamObject } = require("stream-json/streamers/StreamObject");
 const redis = require("redis").createClient();
+redis.select(3);
 
 let counter = 0;
 const pipeline = chain([

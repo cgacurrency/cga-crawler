@@ -19,22 +19,17 @@ const Navigation = () => {
     <div id="Navigation" className="row align-items-center pl-3">
       <div className="col-auto mt-3 mb-3 px-0 px-md-2">
         <div className="LogoWrap">
-          <ReactSVG path={VertLogo} className="VertLogo d-block" />
+            <NavLink
+              to="/"
+            >
+              <ReactSVG path={VertLogo} className="VertLogo d-block" />
+            </NavLink>
+          
         </div>
       </div>
 
       <div className="col-md px-0 px-md-2 ml-md-5">
         <ul className="NavigationList nav">
-          <li className="nav-item">
-            <NavLink
-              to="/"
-              className="nav-link pr-1 pr-md-3"
-              activeClassName="active"
-              isActive={explorerActive}
-            >
-              <TranslatedMessage id="nav.explorer" />
-            </NavLink>
-          </li>
           <li className="nav-item">
             <NavLink
               exact
@@ -43,6 +38,16 @@ const Navigation = () => {
               activeClassName="active"
             >
               <TranslatedMessage id="nav.network" />
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              exact
+              to="/explorer/accounts/1"
+              className="nav-link  pr-1 pr-md-3"
+              activeClassName="active"
+            >
+              <TranslatedMessage id="nav.Distribution" />
             </NavLink>
           </li>
           {config.features.nodeStatus && (

@@ -7,10 +7,21 @@ import "primer-tooltips/build/build.css";
 import config from "client-config.json";
 import { withTranslations } from "./lib/TranslationContext";
 import Navigation from "./app/Navigation";
-import DonationAlert from "./app/DonationAlert";
+
 import Content from "./app/Content";
 
 import AccountLink from "./app/partials/AccountLink";
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fad } from '@fortawesome/pro-duotone-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+library.add(
+  fad,
+  fas,
+)
+
 
 function App({ locale }) {
   return (
@@ -22,7 +33,7 @@ function App({ locale }) {
           </div>
         </div>
 
-        <DonationAlert />
+        
 
         <Content />
 
@@ -37,7 +48,7 @@ function App({ locale }) {
           <div className="col-auto text-md-right">
             <div className="py-2 px-4">
               <a
-                href="https://cgaio.com"
+                href="https://www.cgaio.com"
                 target="_blank"
                 className="btn btn-sm btn-nano-primary mb-1"
               >

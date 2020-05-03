@@ -1,8 +1,11 @@
 {
     "nav.explorer": "Explorer",
-    "nav.network": "Network Status",
+    "nav.network": "Networks",
     "nav.status": "Node Status",
+    "nav.Distribution": "Distribution",
     "explorer.title": "CGA EXPLOER",
+    "explorer.title.live": "Live",
+    "explorer.title.beta": "Beta",
     "explorer.form.help":
         "Enter a {currency} address or block hash to get started.",
     "explorer.known_accounts": "Known Accounts",
@@ -30,9 +33,10 @@
     "network.rebroadcast_stat":
         "{totalPower} of the total voting power and {onlinePower} of the online voting power",
     "network.peer_versions": "Protocol Versions",
+    "network.peer_versions.desc": "All peers are up to date!",
     "network.aggregate.title": "Aggregate Network Stats",
     "network.aggregate.desc":
-        "Stats are collected from discovered {link} and filtered to only include nodes with voting weight",
+        "Stats are collected from discovered CGA EXPLORER and filtered to only include nodes with voting weight",
     "network.tracking_nodes": "Tracking {count} nodes",
     "network.avg_sync_status": "Average Sync Status",
     "network.avg_block_count": "Average Block Count",
