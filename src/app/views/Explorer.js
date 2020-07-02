@@ -94,7 +94,9 @@ class Explorer extends React.PureComponent {
             <RandomVerifiedAccounts count={5} />
           </div>
 
-
+          <div className="mt-5">
+            <ExplorerTopAccounts count={5} />
+          </div>
 
 
         </div>
