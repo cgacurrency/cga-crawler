@@ -1,6 +1,6 @@
 {
   "name": "cga-crawler-beta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -84,7 +84,7 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "pm2 start ecosystem.config.js",
     "server": "node scripts/server.js",
     "client": "node scripts/start.js",
     "build": "node scripts/build.js",
