@@ -1,7 +1,7 @@
 export default class AccountWebsocket {
   constructor(host) {
     this.websocketHost = host;
-    this.keepalivePing = 60 * 1000;
+    this.keepalivePing = 20 * 1000;
     this.reconnectTimeout = 5 * 1000;
     this.keepaliveTimeout = null;
     this.queuedCommands = [];
