@@ -51,6 +51,7 @@
 
     .toplast {
         margin-top: 20rem;
+        min-height: initial;
     }
 
 }
@@ -59,6 +60,7 @@
 
     .toplast {
         margin-top: 28rem;
+        min-height: initial;
     }
 
 }
