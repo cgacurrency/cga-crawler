@@ -41,7 +41,7 @@
 
 .toplast {
     margin-top: 25rem;
-    min-height: initial;
+    min-height: inherit;
 }
 
 
@@ -52,7 +52,7 @@
 
     .toplast {
         margin-top: 20rem;
-        min-height: initial;
+        min-height: inherit;
     }
 
 }
@@ -61,7 +61,7 @@
 
     .toplast {
         margin-top: 28rem;
-        min-height: initial;
+        min-height: inherit;
     }
 
 }
