@@ -100,7 +100,7 @@ export default function ReceiveBlock({ block }) {
           <TranslatedMessage id="date" />
         </span>{" "}
         <small className="text-muted">
-          <OptionalField value={formatTimestamp(block.timestamp)} />
+          <OptionalField value={formatTimestamp(block.local_timestamp)} />
         </small>
       </h4>
       <p>
