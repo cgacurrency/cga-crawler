@@ -7,8 +7,8 @@
 /coverage
 
 # production
-# /build
-# /html
+/build
+/html
 
 # misc
 .DS_Store
