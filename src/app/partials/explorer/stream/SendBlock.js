@@ -17,14 +17,14 @@ export default function SendBlock({ event }) {
           />
         </p>
         <p className="mb-0">
-          <span className="text-warning">
+          <span className="text-danger">
             <TranslatedMessage
               id="stream.send"
               values={{
                 currencyShortName: config.currency.shortName,
                 amount: (
                   <FormattedNumber
-                    value={block.amount}
+                    value={Currency.fromRaw(block.amount)}
                     maximumFractionDigits={6}
                     minimumFractionDigits={2}
                   />

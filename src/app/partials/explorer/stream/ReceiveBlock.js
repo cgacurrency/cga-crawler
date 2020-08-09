@@ -24,7 +24,7 @@ export default function ReceiveBlock({ event }) {
                 currencyShortName: config.currency.shortName,
                 amount: (
                   <FormattedNumber
-                    value={block.amount}
+                    value={Currency.fromRaw(block.amount)}
                     maximumFractionDigits={6}
                     minimumFractionDigits={2}
                   />
