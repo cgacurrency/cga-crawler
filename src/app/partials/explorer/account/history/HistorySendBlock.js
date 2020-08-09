@@ -31,7 +31,7 @@ export default function HistorySendBlock({ block }) {
         </Fragment>
       }
       amount={
-        <span className="text-danger">
+        <span className="text-danger">{console.log('send', block.amount, Currency.fromRaw(block.amount))}
           -<FormattedNumber
             value={Currency.fromRaw(block.amount)}
             maximumFractionDigits={6}
