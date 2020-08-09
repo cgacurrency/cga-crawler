@@ -3,8 +3,7 @@ import config from "client-config.json";
 
 export function formatTimestamp(timestamp) {
   if (!timestamp) return null;
-  // timestamp.substring(0,10);
-  console.log(timestamp, typeof(timestamp))
+  String(timestamp).substring(0,10);
   return moment.unix(parseInt(timestamp, 10)).format("MMM D, YYYY HH:mm:ss");
 
 }
