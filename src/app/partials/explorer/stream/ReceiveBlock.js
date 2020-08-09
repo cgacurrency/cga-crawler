@@ -26,6 +26,7 @@ export default function ReceiveBlock({ event }) {
                   <FormattedNumber
                     value={block.amount}
                     maximumFractionDigits={6}
+                    minimumFractionDigits={2}
                   />
                 )
               }}
