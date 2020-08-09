@@ -29,6 +29,8 @@ class PriceWithConversions extends React.PureComponent {
     switch (cur) {
       case "base":
         return this.amount;
+      case "cga":
+        return this.amount;
       case "usd":
         return this.amount * parseFloat(ticker.priceUSD, 10);
       case "btc":
@@ -49,6 +51,17 @@ class PriceWithConversions extends React.PureComponent {
               value={value}
               minimumFractionDigits={Math.min(2, this.props.precision.base)}
               maximumFractionDigits={this.props.precision.base}
+            />{" "}
+            {config.currency.shortName}
+          </Fragment>
+        );
+      case "cga":
+        return (
+          <Fragment key="cga">
+            <FormattedNumber
+              value={value}
+              minimumFractionDigits={2}
+              maximumFractionDigits={6}
             />{" "}
             {config.currency.shortName}
           </Fragment>

@@ -26,6 +26,7 @@ export default function OpenBlock({ event }) {
                   <FormattedNumber
                     value={block.amount}
                     maximumFractionDigits={6}
+                    
                   />
                 )
               }}

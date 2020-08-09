@@ -17,7 +17,7 @@ export default function SendBlock({ event }) {
           />
         </p>
         <p className="mb-0">
-          <span className="text-danger">
+          <span className="text-danger fsfs">
             <TranslatedMessage
               id="stream.send"
               values={{
