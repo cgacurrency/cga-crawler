@@ -6,7 +6,8 @@ export function formatTimestamp(timestamp) {
   // let timen = timestamp.toString().substring(0,10);
   // console.log(timestamp, timestamp.toString().substring(0,10), timen,  moment.unix(parseInt(timen, 10)).format("MMM D, YYYY HH:mm:ss"))
   // timestamp = String(timestamp).substring(0,10);
-  return moment.unix(parseInt(timestamp, 10)).format("MMM D, YYYY HH:mm:ss");
+  // return moment.unix(parseInt(timestamp, 10)).format("MMM D, YYYY HH:mm:ss");
+  return moment(parseInt(timestamp, 10)).format("MMM D, YYYY HH:mm:ss");
 
 }
 
