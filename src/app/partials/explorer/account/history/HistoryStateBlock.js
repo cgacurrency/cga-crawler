@@ -104,7 +104,8 @@ export default class HistoryStateBlock extends React.PureComponent {
             )}
           </span>
         }
-        date={<OptionalField value={formatTimestamp(block.timestamp ? block.timestamp : block.local_timestamp)} />}
+        date={<OptionalField value={formatTimestamp(block.timestamp)} />}
+        // date={<OptionalField value={formatTimestamp(block.timestamp ? block.timestamp : block.local_timestamp)} />}
         block={
           <div className="text-truncate">
             <small>
