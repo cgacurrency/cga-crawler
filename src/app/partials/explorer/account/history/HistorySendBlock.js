@@ -40,7 +40,7 @@ export default function HistorySendBlock({ block }) {
           {config.currency.shortName}
         </span>
       }
-      date={<OptionalField value={formatTimestamp(block.local_timestamp)} />}
+      date={<OptionalField value={formatTimestamp(block.timestamp)} />}
       block={
         <div className="text-truncate">
           <small>

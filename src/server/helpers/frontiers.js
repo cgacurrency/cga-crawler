@@ -4,7 +4,7 @@ import redis from "redis";
 import config from "../../../server-config.json";
 
 const redisClient = redis.createClient(config.redis);
-redisClient.select(3);
+redisClient.select(2);
 const zcount = promisify(redisClient.zcount.bind(redisClient));
 const zrevrange = promisify(redisClient.zrevrange.bind(redisClient));
 

@@ -9,7 +9,7 @@ const redisKey = `nano-control-panel/${serverConfig.redisNamespace ||
 
 if (serverConfig.redis) {
   redisClient = redis.createClient(serverConfig.redis);
-  redisClient.select(3);
+  redisClient.select(2);
 
   redisClient.on("error", err => {
     console.error("Redis unavailable");

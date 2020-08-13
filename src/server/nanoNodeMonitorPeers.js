@@ -7,7 +7,7 @@ import config from "../../server-config.json";
 import NodeMonitor from "./NodeMonitor";
 
 const redisClient = redis.createClient(config.redis);
-redisClient.select(3);
+redisClient.select(2);
 redisClient.on("error", err => {
   console.error("Redis unavailable");
 });

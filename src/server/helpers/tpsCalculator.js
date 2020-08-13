@@ -3,7 +3,7 @@ import redis from "redis";
 import config from "../../../server-config.json";
 
 const redisClient = redis.createClient(config.redis);
-redisClient.select(3);
+redisClient.select(2);
 const zRangeByScore = promisify(redisClient.zrangebyscore.bind(redisClient));
 
 const STORAGE_KEY = `nano-control-panel/${config.redisNamespace ||
