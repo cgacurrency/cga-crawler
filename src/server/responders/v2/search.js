@@ -12,7 +12,7 @@ export default function(app, nano) {
       return res.json({ accounts: [] });
     }
 
-    if (req.query.q.trim().length > 64) {
+    if (req.query.q.trim().length > 65) {
       return next(new BadRequest("Search too long"));
     }
 
