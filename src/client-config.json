@@ -2,14 +2,14 @@
   "server": "https://api-beta.cganode.com",
   "websocketServer": "ws-beta.cganode.com",
   "donationAddress":
-    "cga_1ueyhpyrp4i3u47fdm3ikzwmd6oe9ewyeqeihhexg6td635biz3f5nysisbb",
+    "cgab_3ahf6fdetq47fcr1pkqebbpktfibnodmt4yqr56bhd79ebqruy9f3b13bq4h",
   "currency": {
     "name": "CGA",
     "shortName": "CGA",
     "precision": 29,
     "maxSupply": 3402823669.2,
-    "prefixes": ["cga", "CGA"],
-    "qrPrefix": "cga",
+    "prefixes": ["cgab", "CGAB"],
+    "qrPrefix": "cgab",
     "supportsMyNanoNinja": false,
     "NODEalias": true
   },

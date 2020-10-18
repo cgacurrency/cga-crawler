@@ -1,6 +1,6 @@
 {
   "nodeName": "beta.cganode.com",
-  "account": "cga_3rzm47ck84go8cqc7fbhqi3bokhx4nxh5r3kcazt5wsh4xwa9poua7rfjqhz",
+  "account": "cgab_3oybyt7egk5tncobrr7aszer8nxgp1pqefbx3o4iz6isq1shc8ughp7ra5qe",
   "clientUrl": "https://beta.cganode.com",
   "raiblocksDir": "/root/CGABeta",
   "nodeHost": "http://[::]:54350",
@@ -13,10 +13,9 @@
   "knownMonitors": [],
   "blacklistedPeers": ["95.216.137.65"],
   "officialRepresentatives": [
-    "cga_1zea4td5afb34nrufpber4xrxwot9u4y7jsrko3jk5k3qeofmwwgn1eytjsb",
-    "cga_1cxyritxctyibtg9ts1enwuranwt1qmcq1zpf7moauzts1w5byjg7jaxn7zj",
-    "cga_1ghr5b5xhidmtdnn1ffg1afk1g3n89upymy8iai7ukys4frotee7k8ccne67",
-    "cga_3rzm47ck84go8cqc7fbhqi3bokhx4nxh5r3kcazt5wsh4xwa9poua7rfjqhz",
-    "cga_347sy8cfa8rrp7yy1ib8qn4mzedigzid8ogp8k1si5d88j6bbm8985nd5qmz"
+    "cgab_35jgmhz8tyi5mku7h1az6789aui3ecwtdre3xmzc5fqdgf76cy6uj4dpf7zs",
+    "cgab_1ws97ztbh4rhycdjhbciecyz1r6g6ddkus55e6maei5bu3wyprbk6t3m1ua9",
+    "cgab_3oybyt7egk5tncobrr7aszer8nxgp1pqefbx3o4iz6isq1shc8ughp7ra5qe",
+
   ]
 }
