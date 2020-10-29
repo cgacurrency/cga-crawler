@@ -5,7 +5,7 @@
     "nav.Distribution": "Distribution",
     "explorer.title": "CGA EXPLOER",
     "explorer.title.live": "Live",
-    "explorer.title.beta": "Beta",
+    "explorer.title.beta": "Beta Net",
     "explorer.form.help":
         "Enter a {currency} address or block hash to get started.",
     "explorer.known_accounts": "Known Accounts",
