@@ -19,5 +19,10 @@
       "en": "English"
     }
   },
+  "blacklist" : {
+    "suspended": [
+      "cga_3zd6p5a5i8by99wupqmso4r5mhqxhb6mehwmmtjpdytqqh3bpp4pd1nw4acd"
+    ]
+  },
   "serviceMonitors": []
 }

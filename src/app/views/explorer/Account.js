@@ -104,6 +104,23 @@ class Account extends React.Component {
     );
   }
 
+  accountSuspendedBadge() {
+    const { formatMessage } = this.props.intl;
+    if ( !config.blacklist.suspended.includes(account) ) return;
+
+    return (
+      <span
+        className="badge badge-danger mr-1 tooltipped tooltipped-n tooltipped-multiline"
+        aria-label={formatMessage(
+          withDefault({ id: `account.suspended` })
+        )}
+        style={{ cursor: "help" }}
+      >
+        SUSPENDED <i className="fa fa-ban" />
+      </span>
+    );
+  }
+
   representativeOfflineWarning() {
     const { representativesOnline } = this.props.network;
     if (isEmpty(representativesOnline)) return;
@@ -172,6 +189,7 @@ class Account extends React.Component {
             {this.getRepresentative()}
 
             <p className="mb-0">
+              {this.accountSuspendedBadge()}
               {this.representativeOnlineStatus()}
               {this.accountVersionBadge()}
             </p>
