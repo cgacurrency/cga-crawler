@@ -106,6 +106,8 @@ class Account extends React.Component {
 
   accountSuspendedBadge() {
     const { formatMessage } = this.props.intl;
+    const { account } = this.props;
+
     if ( !config.blacklist.suspended.includes(account) ) return;
 
     return (

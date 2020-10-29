@@ -21,7 +21,8 @@
   },
   "blacklist" : {
     "suspended": [
-      "cga_3zd6p5a5i8by99wupqmso4r5mhqxhb6mehwmmtjpdytqqh3bpp4pd1nw4acd"
+      "cga_3zd6p5a5i8by99wupqmso4r5mhqxhb6mehwmmtjpdytqqh3bpp4pd1nw4acd",
+      "cga_33jzciufjhpxzzr4wzu3bi9uukawwic8whyd3ttsjdspeoorwrgthh1ztqiq"
     ]
   },
   "serviceMonitors": []
