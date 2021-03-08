@@ -3,9 +3,9 @@ module.exports = {
     {
       name: "beta-explorer-api",
       script: "server.api.js",
-      instances: 4,
+      // instances: 4,
       env: {
-        NODE_ENV: "development"
+        NODE_ENV: "production"
       },
       env_production: {
         NODE_ENV: "production"
@@ -15,7 +15,7 @@ module.exports = {
     //   name: "beta-explorer-peers",
     //   script: "server.peers.js",
     //   env: {
-    //     NODE_ENV: "development"
+    //     NODE_ENV: "production"
     //   },
     //   env_production: {
     //     NODE_ENV: "production"
@@ -25,7 +25,7 @@ module.exports = {
       name: "beta-explorer-top-accounts",
       script: "server.top-accounts.js",
       env: {
-        NODE_ENV: "development"
+        NODE_ENV: "production"
       },
       env_production: {
         NODE_ENV: "production"
@@ -35,7 +35,7 @@ module.exports = {
       name: "beta-explorer-tps",
       script: "server.tps.js",
       env: {
-        NODE_ENV: "development"
+        NODE_ENV: "production"
       },
       env_production: {
         NODE_ENV: "production"
