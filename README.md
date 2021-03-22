@@ -8,7 +8,7 @@ A lightweight web UI for viewing realtime information about your CGA node and ex
 
 ## Official Site
 
-[http://wwww.cganode.com](http://wwww.cganode.com).
+[http://wwww.cganode.com](http://www.cganode.com).
 
 
 ## What is CGA?
