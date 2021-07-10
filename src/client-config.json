@@ -1,8 +1,15 @@
 {
   "server": "https://api.cganode.com",
   "websocketServer": "ws.cganode.com",
-  "donationAddress":
-    "cga_1bkpgodi5ccyxstqabfac5i4gixzdtczzm6r3upycqzcd9b7rrk9ya83o19s",
+  "donationAddress": "cga_34qqtus65ea4rwftgmue389csma467bsdmcukjunrf3dusfubwft5agutnhn",
+  "knownAddress": {
+    "cga_1gp93xm7ed59xturpf6yfqwg1aa978u6xfikd4zj8no353kegbti3sdpezzk": "COINEAL EXCHANGE",
+    "cga_3ijgsd5d47mx8bw54rxa8ctoj63aheg653ew8c8msrqst9nomdazt7fnyyuz": "CGA GAMES",
+    "cga_16ncu3z5kihexnhggrjyjug6yje8r4y6pdbk395di8n8snst8uucbgxcrybp": "CGA GAMES #2",
+    "cga_15fjph5hp8waztjhm7k89k17765if79j8pfpk77ui5hqj5n8oknpeiudki5r": "CGA GAMES #3",
+    "cga_1111111111111111111111111111111111111111111111111111hifc8npp": "BURN",
+    "cga_3tdssypg1x6s5f3dzuakfms5eckqmw8ht918zak14fbwqpbq9fjtcam67ctp": "REWARDS OUT"
+  },
   "currency": {
     "name": "CGA",
     "shortName": "CGA",
@@ -19,7 +26,7 @@
       "en": "English"
     }
   },
-  "blacklist" : {
+  "blacklist": {
     "suspended": []
   },
   "serviceMonitors": []

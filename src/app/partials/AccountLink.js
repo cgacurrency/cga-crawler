@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import NanoNodeNinja from "lib/NanoNodeNinja";
+import config from "client-config.json";
+// import NanoNodeNinja from "lib/NanoNodeNinja";
 
 export default class AccountLink extends React.Component {
   state = { alias: null };
@@ -10,8 +11,10 @@ export default class AccountLink extends React.Component {
   }
 
   async fetchAlias() {
-    const ninja = new NanoNodeNinja(this.props.account);
-    this.setState({ alias: await ninja.getAlias() });
+    // const ninja = new NanoNodeNinja(this.props.account);
+    const knownAddress = config.knownAddress
+    const knownAlias = (this.props.account in knownAddress) ? knownAddress[this.props.account] : null
+    this.setState({ alias: knownAlias });
   }
 
   accountName() {

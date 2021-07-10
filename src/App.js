@@ -12,16 +12,13 @@ import Content from "./app/Content";
 
 import AccountLink from "./app/partials/AccountLink";
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fad } from '@fortawesome/pro-duotone-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fad } from "@fortawesome/pro-duotone-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-library.add(
-  fad,
-  fas,
-)
-
+library.add(fad, fas, fab);
 
 function App({ locale }) {
   return (
@@ -33,8 +30,6 @@ function App({ locale }) {
           </div>
         </div>
 
-        
-
         <Content />
 
         <hr />
@@ -42,7 +37,7 @@ function App({ locale }) {
         <div className="row mr-0 align-items-center">
           <div className="col-md">
             <div className="py-2 px-4">
-              <p className="mb-0">Powered by Cypto Game Alliance</p>
+              <p className="mb-0">Powered by Crypto Game Alliance</p>
             </div>
           </div>
           <div className="col-auto text-md-right">
@@ -54,6 +49,51 @@ function App({ locale }) {
               >
                 CGAIO.COM
               </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mr-0 align-items-center">
+          <div className="col-md">
+            <div className="py-2 px-4">
+              <ul id="cgasocial">
+                <li>
+                  <a href="https://twitter.com/cga_coin" target="_blank">
+                    <FontAwesomeIcon
+                      icon={["fab", "twitter"]}
+                      // color={"#4c6ef5"}
+                    />{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://discord.com/invite/PNuD9qnM2J" target="_blank">
+                    <FontAwesomeIcon
+                      icon={["fab", "discord"]}
+                    />{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/cgacurrency" target="_blank">
+                    <FontAwesomeIcon
+                      icon={["fab", "telegram-plane"]}
+                    />{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.reddit.com/r/cgacurrency/" target="_blank">
+                    <FontAwesomeIcon
+                      icon={["fab", "reddit-alien"]}
+                    />{" "}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/cgacoin.net" target="_blank">
+                    <FontAwesomeIcon
+                      icon={["fab", "facebook-f"]}
+                    />{" "}
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

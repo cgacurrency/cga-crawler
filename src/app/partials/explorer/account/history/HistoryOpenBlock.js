@@ -35,7 +35,7 @@ export default function HistoryOpenBlock({ block, intl }) {
           +<FormattedNumber
             value={Currency.fromRaw(block.amount)}
             maximumFractionDigits={6}
-            minimumFractionDigits={2}
+            minimumFractionDigits={4}
           />{" "}
           {config.currency.shortName}
         </span>

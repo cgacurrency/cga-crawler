@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-    <ShortName>CGA Crawler</ShortName>
-    <LongName>CGA Crawler</LongName>
+    <ShortName>CGA EXPLORER</ShortName>
+    <LongName>CGA EXPLORER</LongName>
     <Description>Search for accounts and blocks on the CGA network</Description>
     <InputEncoding>UTF-8</InputEncoding>
     <OutputEncoding>UTF-8</OutputEncoding>

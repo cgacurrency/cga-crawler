@@ -47,10 +47,19 @@ class Account extends React.Component {
   accountTitle() {
     const { formatMessage } = this.props.intl;
     const { account, weight, unopened } = this.props;
+    const  knownAddress = config.knownAddress
+
 
     if (account === config.donationAddress) {
       return formatMessage(withDefault({ id: "account.title.donation" }));
     }
+
+    if (account in knownAddress) {
+      return knownAddress[account];
+    }
+
+
+
 
     const mnano = Currency.fromRaw(weight);
 
@@ -222,7 +231,7 @@ class Account extends React.Component {
                         <p className="text-muted mb-0">
                           <FormattedNumber
                             value={Currency.fromRaw(pending)}
-                            minimumFractionDigits={2}
+                            minimumFractionDigits={4}
                             maximumFractionDigits={6}
                           />{" "}
                           {config.currency.shortName}{" "}
