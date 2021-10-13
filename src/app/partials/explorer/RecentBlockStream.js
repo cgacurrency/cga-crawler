@@ -127,6 +127,7 @@ export default class RecentBlockStream extends React.Component {
 
 const RecentBlock = ({ event }) => {
   let block;
+  // eslint-disable-next-line default-case
   switch (event.block.type) {
     case "change":
       block = <ChangeBlock event={event} />;
