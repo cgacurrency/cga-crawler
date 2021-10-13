@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>CGA Crawler</ShortName>
+    <LongName>CGA Crawler</LongName>
+    <Description>Search for accounts and blocks on the CGA network</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <OutputEncoding>UTF-8</OutputEncoding>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+    <Developer>INFINITY BLOCK</Developer>
+    <Contact>hello@infinityblock.co</Contact>
+    <Tags>cryptocurrency cga game alliance account block blockchain node</Tags>
+    <Attribution>Search the CGA currency network, https://beta.cganode.com/</Attribution>
+    <SyndicationRight>open</SyndicationRight>
+    <Query role="example" searchTerms="cgab_35jgmhz8tyi5mku7h1az6789aui3ecwtdre3xmzc5fqdgf76cy6uj4dpf7zs"/>
+    <Image height="16" width="16" type="image/vnd.microsoft.icon">https://beta.cganode.com/favicon.ico</Image>
+    <Url type="text/html" template="https://beta.cganode.com/explorer/auto/{searchTerms}"/>
+</OpenSearchDescription>
