@@ -9,7 +9,9 @@ module.exports = {
       },
       env_production: {
         NODE_ENV: "production"
-      }
+      },
+      max_memory_restart: '300M',
+      namespace: "beta",
     },
     // {
     //   name: "beta-explorer-peers",
@@ -29,7 +31,9 @@ module.exports = {
       },
       env_production: {
         NODE_ENV: "production"
-      }
+      },
+      max_memory_restart: '300M',
+      namespace: "beta",
     },
     {
       name: "beta-explorer-tps",
@@ -39,7 +43,9 @@ module.exports = {
       },
       env_production: {
         NODE_ENV: "production"
-      }
+      },
+      max_memory_restart: '300M',
+      namespace: "beta"
     }
   ]
 };
