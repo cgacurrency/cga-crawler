@@ -9,7 +9,7 @@
   "serverPort": 3002,
   "openExchangeRatesAppId": "",
   "coinMarketCapApiKey": "",
-  "monitorCurrencyName": "cga",
+  "monitorCurrencyName": "cgab",
   "knownMonitors": [],
   "blacklistedPeers": ["95.216.137.65"],
   "officialRepresentatives": [
