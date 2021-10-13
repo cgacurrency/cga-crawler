@@ -4,8 +4,8 @@
   "donationAddress":
     "cgab_3ahf6fdetq47fcr1pkqebbpktfibnodmt4yqr56bhd79ebqruy9f3b13bq4h",
   "currency": {
-    "name": "CGA",
-    "shortName": "CGA",
+    "name": "CGAB",
+    "shortName": "CGAB",
     "precision": 29,
     "maxSupply": 3402823669.2,
     "prefixes": ["cgab", "CGAB"],
